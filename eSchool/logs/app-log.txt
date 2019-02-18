@@ -1,0 +1,16 @@
+2019-02-18 18:55:34.3114|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Report Card For Student Id: 102
+2019-02-18 18:55:36.1174|ERROR|eSchool.Controllers.MarksController|System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   at System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at eSchool.Services.EmailsService.CreateMail(String newSubject, String newBody, String newEmailTo, Boolean isBodyHtml) in D:\1-Projekat - backend\E-School_Project\Project\eSchool\Services\EmailsService.cs:line 39
+   at eSchool.Services.EmailsService.CreateReportCardMail(String studentId, ReportCardDTO reportCard) in D:\1-Projekat - backend\E-School_Project\Project\eSchool\Services\EmailsService.cs:line 388
+   at eSchool.Services.MarksService.GetReportCardForStudentId(String studentId) in D:\1-Projekat - backend\E-School_Project\Project\eSchool\Services\MarksService.cs:line 625
+   at eSchool.Controllers.MarksController.GetReportCardForStudentId(String studentId) in D:\1-Projekat - backend\E-School_Project\Project\eSchool\Controllers\MarksController.cs:line 530
+2019-02-18 18:56:09.5866|INFO|eSchool.Controllers.MarksController|UserId: 401: Requesting Mark Collection.
+2019-02-18 18:56:24.1563|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-18 18:56:50.0181|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark by id: 1
+2019-02-18 18:56:50.1902|INFO|eSchool.Controllers.MarksController|Success!

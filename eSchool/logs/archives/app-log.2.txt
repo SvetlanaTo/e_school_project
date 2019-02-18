@@ -1,0 +1,225 @@
+2019-02-07 00:00:19.1661|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting FormToTeacherSubject Remove for FTS Id: 54
+2019-02-07 00:00:19.6702|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-07 00:00:27.3870|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting FormToTeacherSubject Remove for FTS Id: 2
+2019-02-07 00:00:27.5111|ERROR|eSchool.Controllers.FormsToTeachersSubjectsController|System.Web.HttpException (0x80004005): The Form To TeacherSubject with id: 2 has a list of marks in database. It can not be deleted. If you want to stop the teacher's engagement in teaching the subject in the selected form you need to update Form-Teacher-Subject's property Stopped with HttpPut at http://localhost:54164/project/forms-to-teachers-subjects/2/stopped-to-now
+   at eSchool.Services.FormsToTeacherSubjectsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 178
+   at eSchool.Controllers.FormsToTeachersSubjectsController.DeleteFormToTeacherSubject(Int32 id) in D:\1-Project\Project\eSchool\Controllers\FormsToTeachersSubjectsController.cs:line 236
+2019-02-07 00:01:20.7666|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserRole: admin, UserId: 401: Requesting FormToTeacherSubject by id: 2
+2019-02-07 00:01:20.8057|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Requesting found FormToTeacherSubject convert for adminrole.
+2019-02-07 00:01:20.9057|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-07 00:02:44.7062|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Form TO TeacherSubject Update for FTS Id: 2
+2019-02-07 00:02:44.7162|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Requesting StoppedTeaching Property Update
+2019-02-07 00:02:44.8825|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-07 00:02:58.2427|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Stopped Update to DateTime.UtcNow for FTS Id: 2
+2019-02-07 00:02:58.3277|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success! Updated Stopped property to DateTime.UtcNow.
+2019-02-07 00:03:15.3081|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Form TO TeacherSubject Update for FTS Id: 2
+2019-02-07 00:03:15.3681|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|The route value isn't valid. 
+2019-02-07 00:03:48.6513|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Forms To Teacher-Subject Collection By teacher id: 302
+2019-02-07 00:03:48.9473|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-07 00:05:25.6102|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Forms To Teacher-Subject Collection By teacher-subject id: 2
+2019-02-07 00:05:25.6952|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-07 00:05:57.1500|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Working Teachers Weekly Engagements Report.
+2019-02-07 00:06:00.4732|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-07 00:09:08.2541|INFO|eSchool.Controllers.MarksController|UserId: 401: Requesting Mark Collection.
+2019-02-07 00:09:27.9237|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:10:28.2736|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark by id: 4
+2019-02-07 00:10:30.2120|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:11:34.6490|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 302, SubjectId: 1, FormId: 2, StudentId: 102
+2019-02-07 00:11:34.7783|ERROR|eSchool.Controllers.MarksController|System.Web.HttpException (0x80004005): The teacher with id 302 has stopped teaching the subject with id: 1. You need to renew the teaching contract.
+   at eSchool.Services.TeachersToSubjectsService.GetActiveTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 72
+   at eSchool.Services.FormsToTeacherSubjectsService.FindFTSForMark(Int32 formId, String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 299
+   at eSchool.Services.MarksService.Create(PostMarkDTO postDTO, String teacherId, Int32 subjectId, Int32 formId, String studentId) in D:\1-Project\Project\eSchool\Services\MarksService.cs:line 174
+   at eSchool.Controllers.MarksController.PostMark(PostMarkDTO postDTO, String teacherId, Int32 subjectId, Int32 formId, String studentId) in D:\1-Project\Project\eSchool\Controllers\MarksController.cs:line 126
+2019-02-07 00:12:26.5763|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 304, SubjectId: 3, FormId: 3, StudentId: 109
+2019-02-07 00:12:33.3667|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:14:15.1502|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Update - mark id: 213 to mark value: 4
+2019-02-07 00:14:26.4163|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:14:33.7980|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Update - mark id: 213 to mark value: 4
+2019-02-07 00:14:34.4072|ERROR|eSchool.Controllers.MarksController|System.Web.HttpException (0x80004005): The mark with id: 213 was not created by the teacher with id: 305.
+   at eSchool.Services.MarksService.Update(Int32 id, String teacherId, Int32 value) in D:\1-Project\Project\eSchool\Services\MarksService.cs:line 240
+   at eSchool.Controllers.MarksController.PutMark(Int32 id, String teacherId, Int32 value) in D:\1-Project\Project\eSchool\Controllers\MarksController.cs:line 177
+2019-02-07 00:15:12.8962|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Remove - mark id: 213
+2019-02-07 00:15:13.0272|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:15:41.3194|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102
+2019-02-07 00:15:42.0746|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:16:17.5049|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 For Subject Id: 8
+2019-02-07 00:16:17.6919|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:16:34.5330|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 For Subject Id: 8
+2019-02-07 00:16:34.6700|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:16:59.8429|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Teacher Id: 306
+2019-02-07 00:17:00.4261|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:17:23.6248|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 From Teacher Id: 306
+2019-02-07 00:17:23.8418|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:17:36.1835|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 From Teacher Id: 304
+2019-02-07 00:17:36.2825|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:17:55.3070|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 From Teacher Id: 305
+2019-02-07 00:17:55.5421|ERROR|eSchool.Controllers.MarksController|System.Web.HttpException (0x80004005): Null
+   at eSchool.Services.MarksService.GetMarkValuesListByStudentIdFromTeacherId(String studentId, String teacherId) in D:\1-Project\Project\eSchool\Services\MarksService.cs:line 456
+   at eSchool.Controllers.MarksController.GetMarksByStudentIdFromTeacherId(String studentId, String teacherId) in D:\1-Project\Project\eSchool\Controllers\MarksController.cs:line 452
+2019-02-07 00:18:12.6354|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 From Teacher Id: 306
+2019-02-07 00:18:12.7304|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:18:19.3917|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 From Teacher Id: 307
+2019-02-07 00:18:19.5248|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:19:00.5662|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Form Id: 2 From Teacher Id: 310 For Subject Id: 8Sorted by Last, than First name.
+2019-02-07 00:19:00.8133|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 00:19:34.3989|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Form Id: 4 For Attending Teacher
+2019-02-07 00:19:34.6864|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 13:08:29.7190|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student Collection
+2019-02-07 13:08:30.5194|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:09:35.1831|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student by id: 118
+2019-02-07 13:09:35.3642|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for parentrole.
+2019-02-07 13:09:35.3822|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:09:54.0272|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student by id: 120
+2019-02-07 13:09:54.0652|INFO|eSchool.Controllers.StudentsController|Authorisation failure. User 203 is not authorised for this request.
+2019-02-07 13:10:19.4357|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student by username: student18
+2019-02-07 13:10:19.6017|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for parentrole.
+2019-02-07 13:10:19.6147|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:10:24.6009|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student by username: student20
+2019-02-07 13:10:24.6740|INFO|eSchool.Controllers.StudentsController|Authorisation failure. User 203 is not authorised for this request.
+2019-02-07 13:11:54.8549|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student Collection For Form Id: 5
+2019-02-07 13:11:54.8999|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:13:29.2383|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student List - By Last Name: topalov - Sorted Asc By Name
+2019-02-07 13:13:29.3534|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:14:11.5044|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student by id: 104
+2019-02-07 13:14:11.5774|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for parentrole.
+2019-02-07 13:14:11.6034|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:14:51.0726|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student List - By Last Name: marijanovic - Sorted Asc By Name
+2019-02-07 13:14:51.1246|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:15:01.2396|INFO|eSchool.Controllers.StudentsController|UserRole: parent, UserId: 203: Requesting Student by id: 113
+2019-02-07 13:15:01.7641|INFO|eSchool.Controllers.StudentsController|Authorisation failure. User 203 is not authorised for this request.
+2019-02-07 13:16:51.7623|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 123
+2019-02-07 13:16:51.8044|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 13:16:51.8454|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:19:46.2045|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 123
+2019-02-07 13:19:46.2185|ERROR|eSchool.Controllers.StudentsController|Updated student id 121 doesn't match the id 123 from the request (route).
+2019-02-07 13:20:07.9509|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 123
+2019-02-07 13:20:14.9731|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:20:31.0439|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 123
+2019-02-07 13:20:37.1565|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:20:45.8833|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 123
+2019-02-07 13:20:46.5742|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The username student1 already exists. Leave blank if you don't want to change the user name.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 155
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 267
+2019-02-07 13:21:20.8548|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 123
+2019-02-07 13:21:21.3149|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The user with JMBG: 1111111111111 is already in the sistem.Leave blank if you don't want to change the JMBG.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 165
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 267
+2019-02-07 13:21:30.1231|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 123
+2019-02-07 13:21:35.9875|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:24:47.0941|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 101
+2019-02-07 13:24:47.1814|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 13:24:47.2176|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:25:02.4583|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 123
+2019-02-07 13:25:02.5183|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 13:25:02.5536|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:25:37.1695|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 217
+2019-02-07 13:25:37.2995|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-07 13:25:37.3895|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:26:49.0433|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: 123
+2019-02-07 13:26:49.3821|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:27:07.3803|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 217
+2019-02-07 13:27:07.6152|INFO|eSchool.Controllers.ParentsController|The parent with id: 217 was not found.
+2019-02-07 13:27:44.1171|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 203
+2019-02-07 13:27:44.2021|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-07 13:27:44.2481|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:28:32.1113|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: 105
+2019-02-07 13:28:32.2543|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:28:38.6200|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: 106
+2019-02-07 13:28:38.8431|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:29:00.9923|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 103
+2019-02-07 13:29:01.0593|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 13:29:01.2203|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:29:12.5010|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: 103
+2019-02-07 13:29:12.9521|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:29:20.8436|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 104
+2019-02-07 13:29:20.8957|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 13:29:20.9854|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:29:32.1724|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-07 13:29:32.1974|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-07 13:29:32.2165|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:30:51.0564|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 102
+2019-02-07 13:30:51.1958|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_aa380ff8-2ac5-4763-b956-9221a70857c4
+2019-02-07 13:30:51.3080|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:32:37.1013|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 125
+2019-02-07 13:32:37.1594|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 13:32:37.1884|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:32:56.5832|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 218
+2019-02-07 13:32:56.6032|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-07 13:32:56.6553|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:33:16.3906|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 201
+2019-02-07 13:33:16.4366|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-07 13:33:16.4606|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:33:58.4583|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 101. Assigning new parent id: 202
+2019-02-07 13:34:01.3929|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:34:24.7349|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 201
+2019-02-07 13:34:24.7499|INFO|eSchool.Controllers.ParentsController|The parent with id: 201 was not found.
+2019-02-07 13:39:14.7652|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 123
+2019-02-07 13:39:15.4285|INFO|eSchool.Controllers.StudentsController|The student with id: 123 was not found.
+2019-02-07 13:39:24.5035|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 127
+2019-02-07 13:39:25.0007|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 13:39:26.1459|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:39:45.8429|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 127, add Student to Form Id: 6
+2019-02-07 13:39:47.1290|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 13:49:25.7351|INFO|eSchool.Controllers.MarksController|UserId: 401: Requesting Mark Collection.
+2019-02-07 13:49:30.5855|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 13:51:13.2217|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark by id: 1
+2019-02-07 13:51:13.5338|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 13:51:55.9035|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Remove - mark id: 1
+2019-02-07 13:51:56.2819|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 13:52:18.8524|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102
+2019-02-07 13:52:19.6996|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 13:52:55.1696|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 For Subject Id: 1
+2019-02-07 13:52:55.7167|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 13:53:19.3776|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 For Subject Id: 1
+2019-02-07 13:53:19.7277|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 13:54:38.9650|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 302, SubjectId: 1, FormId: 2, StudentId: 102
+2019-02-07 13:54:45.0056|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 13:55:40.3093|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 For Subject Id: 1
+2019-02-07 13:55:40.7354|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 13:57:21.3761|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 From Teacher Id: 305
+2019-02-07 13:57:21.8488|ERROR|eSchool.Controllers.MarksController|System.Web.HttpException (0x80004005): Null
+   at eSchool.Services.MarksService.GetMarkValuesListByStudentIdFromTeacherId(String studentId, String teacherId) in D:\1-Project\Project\eSchool\Services\MarksService.cs:line 456
+   at eSchool.Controllers.MarksController.GetMarksByStudentIdFromTeacherId(String studentId, String teacherId) in D:\1-Project\Project\eSchool\Controllers\MarksController.cs:line 452
+2019-02-07 13:57:27.0805|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Student Id: 102 From Teacher Id: 302
+2019-02-07 13:57:27.2825|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 15:27:30.3646|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Report Card For Student Id: 302
+2019-02-07 15:29:57.2417|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Report Card For Student Id: 102
+2019-02-07 15:35:31.8254|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 15:42:22.2069|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Report Card For Student Id: 102
+2019-02-07 15:46:30.0262|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 15:53:07.1785|INFO|eSchool.Controllers.MarksController|UserRole: parent, UserId: 203: Requesting Report Card For Student Id: 103
+2019-02-07 15:53:09.6446|INFO|eSchool.Controllers.MarksController|Authorisation failure. User is not authorised for this request.
+2019-02-07 15:53:33.5597|INFO|eSchool.Controllers.MarksController|UserRole: parent, UserId: 203: Requesting Report Card For Student Id: 105
+2019-02-07 15:53:34.9599|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-07 23:36:31.8951|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-07 23:36:32.9584|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 23:39:41.1814|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: student1
+2019-02-07 23:39:41.5245|INFO|eSchool.Controllers.StudentsController|The student with id: student1 was not found.
+2019-02-07 23:40:13.1778|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 102
+2019-02-07 23:40:13.2558|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 23:40:13.3108|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 23:43:55.5020|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 102
+2019-02-07 23:43:55.5631|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 23:43:55.6191|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 23:52:40.2245|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: student2
+2019-02-07 23:52:40.3705|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 23:52:40.4356|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 23:52:59.6940|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 102
+2019-02-07 23:52:59.7790|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 23:52:59.8020|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 23:53:05.1518|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: student2
+2019-02-07 23:53:05.2098|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 23:53:05.2589|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 23:55:17.2351|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 102
+2019-02-07 23:55:17.5772|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-07 23:55:17.7432|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-07 23:56:14.5700|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 102
+2019-02-07 23:56:21.0923|INFO|eSchool.Controllers.StudentsController|Success!

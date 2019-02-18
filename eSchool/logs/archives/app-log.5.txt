@@ -1,0 +1,443 @@
+2019-02-04 12:23:19.7782|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-04 12:23:21.9173|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 12:25:55.4800|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 12:25:55.6641|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_8183bac8-2226-4440-89f1-d66e4754a412
+2019-02-04 12:25:57.8333|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 13:03:36.0539|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 13:03:36.5272|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_dc09a630-7291-4325-80fd-f86624817b9d
+2019-02-04 13:38:12.9947|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 13:38:13.4088|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_0f873658-ebe7-4191-bd17-a70914edb7e1
+2019-02-04 13:41:46.0245|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 13:41:46.8656|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_763bca80-01a1-419d-9b9d-f5b540678959
+2019-02-04 13:45:30.9423|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 13:45:31.0934|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_a7f0125f-53d9-4682-a88c-380930e1ba26
+2019-02-04 13:47:36.1122|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 13:47:36.5043|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_69980f94-5b16-448b-8ee8-33f1f356965d
+2019-02-04 13:48:06.9753|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 14:02:38.0243|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 14:02:38.0814|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_e1e10f55-83d1-4e94-bf74-038ae226d9e3
+2019-02-04 14:02:38.3984|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 14:43:38.7318|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 14:43:39.0239|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_5d2d8076-f2e3-4e01-843c-42a3012fced0
+2019-02-04 14:44:00.4906|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:13:30.2275|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 15:13:30.5399|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_bd89ec43-b922-400a-a8b0-7186d8fafc22
+2019-02-04 15:16:53.1804|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-04 15:16:53.4460|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_215ef1db-5d8c-40e0-ae0d-b7f742cfea1d
+2019-02-04 15:17:09.2745|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:19:54.4128|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-04 15:20:11.0861|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:31:46.3895|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 101
+2019-02-04 15:31:46.8717|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 15:31:46.9350|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:33:06.3348|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: student3
+2019-02-04 15:33:06.4822|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 15:33:06.6034|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:33:27.3073|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: student100
+2019-02-04 15:33:27.3443|INFO|eSchool.Controllers.StudentsController|The student with username: student100 was not found.
+2019-02-04 15:34:01.3815|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: student1
+2019-02-04 15:34:01.4283|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 15:34:01.5065|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:37:11.5235|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 102
+2019-02-04 15:37:16.2895|ERROR|eSchool.Controllers.StudentsController|System.InvalidOperationException: The entity found was of type Student_3CC3CFDFABF2551BB3F9D62DA18C9EED86E6FB6C867F269071C8B8D248FA3537 when an entity of type Parent was requested.
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at eSchool.Repositories.GenericRepository`1.GetByID(Object id) in D:\1-Project\Project\eSchool\Repositories\GenericRepository.cs:line 23
+   at eSchool.Services.EmailsService.CreateMailForParentForUserUpdate(String id) in D:\1-Project\Project\eSchool\Services\EmailsService.cs:line 86
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 200
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 278
+2019-02-04 15:38:47.8695|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 102
+2019-02-04 15:38:48.0103|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 15:38:48.0727|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:40:02.6956|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 102
+2019-02-04 15:40:02.8675|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The user with JMBG: 1111111111143 is already in the sistem.Leave blank if you don't want to change the JMBG.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 162
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 278
+2019-02-04 15:40:13.2679|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 102
+2019-02-04 15:40:15.9947|ERROR|eSchool.Controllers.StudentsController|System.InvalidOperationException: The entity found was of type Student_3CC3CFDFABF2551BB3F9D62DA18C9EED86E6FB6C867F269071C8B8D248FA3537 when an entity of type Parent was requested.
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at eSchool.Repositories.GenericRepository`1.GetByID(Object id) in D:\1-Project\Project\eSchool\Repositories\GenericRepository.cs:line 23
+   at eSchool.Services.EmailsService.CreateMailForParentForUserUpdate(String id) in D:\1-Project\Project\eSchool\Services\EmailsService.cs:line 86
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 200
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 278
+2019-02-04 15:49:01.6802|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 102
+2019-02-04 15:49:28.7428|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:49:47.3211|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 102
+2019-02-04 15:49:47.7430|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The username simaNew already exists. Leave blank if you don't want to change the user name.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 278
+2019-02-04 15:50:00.0967|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 102
+2019-02-04 15:50:05.8052|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:50:11.7627|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 102
+2019-02-04 15:50:17.6974|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 15:50:31.3547|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 102
+2019-02-04 15:50:31.3861|ERROR|eSchool.Controllers.StudentsController|Updated student id 112 doesn't match the id 102 from the request (route).
+2019-02-04 18:06:46.5342|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting User Account By Jmbg: 199999999999
+2019-02-04 18:06:46.6516|INFO|eSchool.Controllers.AccountController|The JMBG must be 13 characters long.
+2019-02-04 18:06:54.7836|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting User Account By Jmbg: 1999999999999
+2019-02-04 18:07:15.5442|INFO|eSchool.Controllers.AccountController|The user is not in the system.
+2019-02-04 18:09:46.0478|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Student Insert
+2019-02-04 18:09:46.8903|ERROR|eSchool.Controllers.AccountController|System.Web.HttpException (0x80004005): The parent with JMBG 1999999999999 is not in the system.Register student with parent with HttpPost at http://localhost:54164/project/account/register-student-and-parent
+   at eSchool.Services.UsersService.<RegisterStudent>d__6.MoveNext() in D:\1-Project\Project\eSchool\Services\UsersService.cs:line 197
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.AccountController.<RegisterStudent>d__6.MoveNext() in D:\1-Project\Project\eSchool\Controllers\AccountController.cs:line 158
+2019-02-04 18:12:29.9635|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Student and New Parent Insert
+2019-02-04 18:12:39.1687|INFO|eSchool.Controllers.AccountController|Student (with parent) registered successfully!
+2019-02-04 18:13:28.0754|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Student and New Parent Insert
+2019-02-04 18:13:28.5827|ERROR|eSchool.Controllers.AccountController|System.Web.HttpException (0x80004005): The parent with JMBG 1999999999999 is already in the system with id: f8adb1cc-4f64-4d9b-ad9c-ba5eb2b5db42 Register student with HttpPost at http://localhost:54164/project/account/register-student
+   at eSchool.Services.UsersService.<RegisterStudentAndParent>d__4.MoveNext() in D:\1-Project\Project\eSchool\Services\UsersService.cs:line 84
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.AccountController.<RegisterStudentAndParent>d__5.MoveNext() in D:\1-Project\Project\eSchool\Controllers\AccountController.cs:line 120
+2019-02-04 18:14:09.9723|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Student and New Parent Insert
+2019-02-04 18:14:10.9145|ERROR|eSchool.Controllers.AccountController|System.Web.HttpException (0x80004005): The user with JMBG 9111111111111 is already in the system with id ad5cc42e-9d53-4996-8527-3d05020c96e5
+   at eSchool.Services.UsersService.<RegisterStudentAndParent>d__4.MoveNext() in D:\1-Project\Project\eSchool\Services\UsersService.cs:line 92
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.AccountController.<RegisterStudentAndParent>d__5.MoveNext() in D:\1-Project\Project\eSchool\Controllers\AccountController.cs:line 120
+2019-02-04 18:14:20.6236|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Student and New Parent Insert
+2019-02-04 18:14:22.2943|ERROR|eSchool.Controllers.AccountController|System.Web.HttpException (0x80004005): The username you entered for the student: studentNew already exists.
+   at eSchool.Services.UsersService.<RegisterStudentAndParent>d__4.MoveNext() in D:\1-Project\Project\eSchool\Services\UsersService.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.AccountController.<RegisterStudentAndParent>d__5.MoveNext() in D:\1-Project\Project\eSchool\Controllers\AccountController.cs:line 120
+2019-02-04 18:14:31.7426|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Student and New Parent Insert
+2019-02-04 18:14:33.8381|ERROR|eSchool.Controllers.AccountController|System.Web.HttpException (0x80004005): Username you entered for the parent parentNew already exists.
+   at eSchool.Services.UsersService.<RegisterStudentAndParent>d__4.MoveNext() in D:\1-Project\Project\eSchool\Services\UsersService.cs:line 111
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.AccountController.<RegisterStudentAndParent>d__5.MoveNext() in D:\1-Project\Project\eSchool\Controllers\AccountController.cs:line 120
+2019-02-04 18:14:46.6935|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Student and New Parent Insert
+2019-02-04 18:15:02.2717|INFO|eSchool.Controllers.AccountController|Student (with parent) registered successfully!
+2019-02-04 18:15:22.1574|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Student and New Parent Insert
+2019-02-04 18:15:22.8546|ERROR|eSchool.Controllers.AccountController|System.Web.HttpException (0x80004005): Form id 1000 was not found.
+   at eSchool.Services.UsersService.<RegisterStudentAndParent>d__4.MoveNext() in D:\1-Project\Project\eSchool\Services\UsersService.cs:line 104
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.AccountController.<RegisterStudentAndParent>d__5.MoveNext() in D:\1-Project\Project\eSchool\Controllers\AccountController.cs:line 120
+2019-02-04 18:20:18.5415|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting User Account By Jmbg: 1234567891234
+2019-02-04 18:20:18.7697|INFO|eSchool.Controllers.AccountController|The user is not in the system.
+2019-02-04 18:20:40.5553|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting User Account By Jmbg: 1111111111111
+2019-02-04 18:20:41.1819|INFO|eSchool.Controllers.AccountController|Success!
+2019-02-04 18:21:27.0652|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting User Account By Jmbg: 1111111111114
+2019-02-04 18:21:27.2448|INFO|eSchool.Controllers.AccountController|Success!
+2019-02-04 18:21:42.1937|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting User Account By Jmbg: 3333333333333
+2019-02-04 18:21:42.2727|INFO|eSchool.Controllers.AccountController|The user is not in the system.
+2019-02-04 18:22:40.5421|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Teacher Insert
+2019-02-04 18:22:40.7451|ERROR|eSchool.Controllers.AccountController|System.Web.HttpException (0x80004005): The username you entered for the teacher: teacher1 already exists.
+   at eSchool.Services.UsersService.<RegisterTeacher>d__7.MoveNext() in D:\1-Project\Project\eSchool\Services\UsersService.cs:line 257
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.AccountController.<RegisterTeacher>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\AccountController.cs:line 216
+2019-02-04 18:22:52.7684|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Teacher Insert
+2019-02-04 18:22:53.1465|INFO|eSchool.Controllers.AccountController|Teacher registered successfully!
+2019-02-04 18:26:11.6006|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Teacher by username: teachernew
+2019-02-04 18:26:11.8413|INFO|eSchool.Controllers.TeachersController|Requesting found teacher convert for adminrole.
+2019-02-04 18:26:11.9053|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-04 18:28:57.8205|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Admin Insert
+2019-02-04 18:28:57.9745|ERROR|eSchool.Controllers.AccountController|System.Web.HttpException (0x80004005): A user with JMBG 1111111111111 is already in the system.
+   at eSchool.Services.UsersService.<RegisterAdmin>d__3.MoveNext() in D:\1-Project\Project\eSchool\Services\UsersService.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.AccountController.<RegisterAdmin>d__4.MoveNext() in D:\1-Project\Project\eSchool\Controllers\AccountController.cs:line 82
+2019-02-04 18:29:20.3434|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Admin Insert
+2019-02-04 18:29:23.5928|INFO|eSchool.Controllers.AccountController|Admin registered successfully!
+2019-02-04 18:31:48.4139|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 101
+2019-02-04 18:31:48.7540|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 18:31:48.9871|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:33:26.1534|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting Password Update for user id 101
+2019-02-04 18:33:26.7080|INFO|eSchool.Controllers.AccountController|Password changed successfully!
+2019-02-04 18:33:57.9388|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting Password Update for user id 101
+2019-02-04 18:33:58.2912|INFO|eSchool.Controllers.AccountController|Password changed successfully!
+2019-02-04 18:35:46.4843|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting Password Update for user id 101
+2019-02-04 18:35:46.6994|INFO|eSchool.Controllers.AccountController|Password changed successfully!
+2019-02-04 18:36:16.8510|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-04 18:36:17.5682|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:36:57.0633|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 105
+2019-02-04 18:36:57.1444|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 18:36:57.1804|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:37:04.4043|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 1000
+2019-02-04 18:37:04.4373|INFO|eSchool.Controllers.StudentsController|The student with id: 1000 was not found.
+2019-02-04 18:37:24.6468|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: student1
+2019-02-04 18:37:24.6828|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 18:37:24.7149|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:37:34.9496|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: klskenwef
+2019-02-04 18:37:34.9846|INFO|eSchool.Controllers.StudentsController|The student with username: klskenwef was not found.
+2019-02-04 18:38:15.8690|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: studentnew
+2019-02-04 18:38:15.8990|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 18:38:16.0080|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:39:42.2658|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: ad5cc42e-9d53-4996-8527-3d05020c96e5
+2019-02-04 18:39:42.3109|ERROR|eSchool.Controllers.StudentsController|Updated student id 21 doesn't match the id ad5cc42e-9d53-4996-8527-3d05020c96e5 from the request (route).
+2019-02-04 18:39:52.9806|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: ad5cc42e-9d53-4996-8527-3d05020c96e5
+2019-02-04 18:39:53.5518|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The user with JMBG: 1111111111111 is already in the sistem.Leave blank if you don't want to change the JMBG.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 162
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 278
+2019-02-04 18:40:14.2572|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: ad5cc42e-9d53-4996-8527-3d05020c96e5
+2019-02-04 18:40:19.6956|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:41:42.6252|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: ad5cc42e-9d53-4996-8527-3d05020c96e5
+2019-02-04 18:41:43.0084|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_3f3dc426-f647-42e9-a4fd-d7a9e8e9e597
+2019-02-04 18:41:43.1445|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:42:29.9726|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: ad5cc42e-9d53-4996-8527-3d05020c96e5
+2019-02-04 18:42:30.7132|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:42:51.4713|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by username: parentnew
+2019-02-04 18:42:51.5343|INFO|eSchool.Controllers.ParentsController|The parent with username: parentnew was not found.
+2019-02-04 18:44:24.4708|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-04 18:44:24.7963|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-04 18:44:24.8473|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:44:58.6278|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: 102
+2019-02-04 18:44:58.9621|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:45:13.5671|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 202
+2019-02-04 18:45:13.5851|INFO|eSchool.Controllers.ParentsController|Requesting found parent convert for adminrole.
+2019-02-04 18:45:13.6031|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-04 18:45:25.9623|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-04 18:45:26.0103|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-04 18:45:26.1353|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:47:04.9872|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 103. Assigning new parent id: 203
+2019-02-04 18:47:08.0912|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:47:36.6263|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 203
+2019-02-04 18:47:36.8014|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-04 18:47:36.8654|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:47:51.3117|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 201
+2019-02-04 18:47:51.3317|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-04 18:47:51.3667|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:48:11.4737|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 101. Assigning new parent id: 202
+2019-02-04 18:48:14.5925|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:48:29.2353|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-04 18:48:29.2873|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-04 18:48:29.3273|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:48:41.1483|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 201
+2019-02-04 18:48:41.1793|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-04 18:48:41.2003|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:48:58.0239|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 201
+2019-02-04 18:48:58.1169|INFO|eSchool.Controllers.ParentsController|Requesting found parent convert for adminrole.
+2019-02-04 18:48:58.1449|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-04 18:50:31.2197|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 101
+2019-02-04 18:50:31.2775|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 18:50:31.3065|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:51:07.8115|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 101, add Student to Form Id: 2
+2019-02-04 18:51:08.0355|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:51:33.4402|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: studentnew
+2019-02-04 18:51:33.4942|INFO|eSchool.Controllers.StudentsController|The student with id: studentnew was not found.
+2019-02-04 18:52:08.6823|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 101
+2019-02-04 18:52:14.1616|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 18:52:32.7862|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 101, add Student to Form Id: 3
+2019-02-04 18:52:32.9162|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The student by id 101 no longer has an active status
+   at eSchool.Services.StudentsService.UpdateStudentForm(String id, Int32 formId) in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 295
+   at eSchool.Controllers.StudentsController.PutStudentForm(String id, Int32 formId) in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 486
+2019-02-04 18:53:38.5703|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection For Form Id: 3
+2019-02-04 18:53:38.6913|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 19:01:22.2208|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parent Collection
+2019-02-04 19:01:22.3671|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-04 19:01:44.1696|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 204
+2019-02-04 19:01:44.3657|INFO|eSchool.Controllers.ParentsController|Requesting found parent convert for adminrole.
+2019-02-04 19:01:44.4137|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-04 19:02:59.5989|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Update for Parent Id: 204
+2019-02-04 19:02:59.7820|ERROR|eSchool.Controllers.ParentsController|System.Web.HttpException (0x80004005): The username parent4 already exists. Leave blank if you don't want to change the user name.
+   at eSchool.Services.ParentsService.<Update>d__13.MoveNext() in D:\1-Project\Project\eSchool\Services\ParentsService.cs:line 184
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.ParentsController.<PutParent>d__8.MoveNext() in D:\1-Project\Project\eSchool\Controllers\ParentsController.cs:line 308
+2019-02-04 19:03:33.9928|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Update for Parent Id: 204
+2019-02-04 19:03:34.1638|ERROR|eSchool.Controllers.ParentsController|System.Web.HttpException (0x80004005): The user with JMBG: 1111111111128 is already in the sistem.Leave blank if you don't want to change the JMBG.
+   at eSchool.Services.ParentsService.<Update>d__13.MoveNext() in D:\1-Project\Project\eSchool\Services\ParentsService.cs:line 194
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.ParentsController.<PutParent>d__8.MoveNext() in D:\1-Project\Project\eSchool\Controllers\ParentsController.cs:line 308
+2019-02-04 19:03:42.5151|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Update for Parent Id: 204
+2019-02-04 19:03:42.6382|ERROR|eSchool.Controllers.ParentsController|System.Web.HttpException (0x80004005): The user with JMBG: 1111111111128 is already in the sistem.Leave blank if you don't want to change the JMBG.
+   at eSchool.Services.ParentsService.<Update>d__13.MoveNext() in D:\1-Project\Project\eSchool\Services\ParentsService.cs:line 194
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.ParentsController.<PutParent>d__8.MoveNext() in D:\1-Project\Project\eSchool\Controllers\ParentsController.cs:line 308
+2019-02-04 19:03:53.7046|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Update for Parent Id: 204
+2019-02-04 19:03:57.7335|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-04 19:06:53.7046|INFO|eSchool.Controllers.ParentsController|UserId: 401: Requesting Parent Remove for Parent Id: 204
+2019-02-04 19:06:53.8626|ERROR|eSchool.Controllers.ParentsController|System.Web.HttpException (0x80004005): The Parent id: 204 has 2 student/students assigned to his name. For more info go to HttpGet at route: http://localhost:54164/project/students/assigned-to-parent/204 . To delete this Parent, you need to assign student/students to a different guardian with HttpPut and route: http://localhost:54164/project/students/{id}/assign-to-parent/{parentId}  or delete parent with student. Thank you for your cooperation.
+   at eSchool.Services.ParentsService.Delete(String id) in D:\1-Project\Project\eSchool\Services\ParentsService.cs:line 244
+   at eSchool.Controllers.ParentsController.DeleteParent(String id) in D:\1-Project\Project\eSchool\Controllers\ParentsController.cs:line 344
+2019-02-04 19:07:35.3346|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 204
+2019-02-04 19:07:35.3786|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-04 19:07:35.4146|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 19:08:16.3488|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 107. Assigning new parent id: 201
+2019-02-04 19:08:18.9934|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 19:08:41.6326|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: 108
+2019-02-04 19:08:41.9057|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 19:08:50.2314|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 204
+2019-02-04 19:08:50.2494|INFO|eSchool.Controllers.ParentsController|The parent with id: 204 was not found.
+2019-02-04 19:09:22.8074|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by username: parentnew
+2019-02-04 19:09:22.8374|INFO|eSchool.Controllers.ParentsController|The parent with username: parentnew was not found.
+2019-02-04 19:10:02.6344|INFO|eSchool.Controllers.AccountController|UserId: 401: Requesting New Student and New Parent Insert
+2019-02-04 19:10:12.9308|INFO|eSchool.Controllers.AccountController|Student (with parent) registered successfully!
+2019-02-04 19:10:36.7792|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: studentNew
+2019-02-04 19:10:36.7962|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 19:10:36.8492|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 19:11:24.6754|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 0272b22b-c8e4-483a-9a5c-a46a48f2682d. Assigning new parent id: 201
+2019-02-04 19:11:27.3363|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 19:11:41.2802|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: parentnew
+2019-02-04 19:11:41.2982|INFO|eSchool.Controllers.ParentsController|The parent with id: parentnew was not found.
+2019-02-04 19:12:02.9852|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: parentNew
+2019-02-04 19:12:03.0352|INFO|eSchool.Controllers.ParentsController|The parent with id: parentNew was not found.
+2019-02-04 19:13:42.1273|INFO|eSchool.Controllers.ParentsController|UserId: 401: Requesting User Account By Jmbg: 1999999999999
+2019-02-04 19:13:42.1864|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-04 19:14:10.8364|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by username: parentNew
+2019-02-04 19:14:10.9204|INFO|eSchool.Controllers.ParentsController|Requesting found parent convert for adminrole.
+2019-02-04 19:14:10.9354|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-04 19:14:39.4018|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: e50e5f46-3b5a-44fa-833a-d539027f68b4
+2019-02-04 19:14:39.5034|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-04 19:14:39.5234|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 19:14:57.8539|INFO|eSchool.Controllers.ParentsController|UserId: 401: Requesting Parent Remove for Parent Id: e50e5f46-3b5a-44fa-833a-d539027f68b4
+2019-02-04 19:14:58.5010|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-04 19:15:58.9447|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Form Collection
+2019-02-04 19:15:59.1175|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:18:51.1990|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Form by id: 2
+2019-02-04 19:18:51.2570|INFO|eSchool.Controllers.FormsController|Requesting found form convert for adminrole.
+2019-02-04 19:18:51.2880|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:20:34.2343|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-04 19:20:34.2453|ERROR|eSchool.Controllers.FormsController|Updated Form id 1 doesn't match the id 2 from the request (route).
+2019-02-04 19:20:45.6512|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-04 19:20:46.4451|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Attending teacher with id: 11 was not found.
+   at eSchool.Services.FormsService.Update(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 132
+   at eSchool.Controllers.FormsController.PutForm(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 209
+2019-02-04 19:20:54.6705|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-04 19:20:55.0626|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Attending teacher with id: 10 was not found.
+   at eSchool.Services.FormsService.Update(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 132
+   at eSchool.Controllers.FormsController.PutForm(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 209
+2019-02-04 19:21:05.8570|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-04 19:21:05.9705|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Attending teacher with id: 7 was not found.
+   at eSchool.Services.FormsService.Update(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 132
+   at eSchool.Controllers.FormsController.PutForm(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 209
+2019-02-04 19:21:30.6578|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-04 19:21:31.3928|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:22:06.9445|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-04 19:22:07.1195|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The form you are creating by this update is already in the system. The form id:4
+   at eSchool.Services.FormsService.Update(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 153
+   at eSchool.Controllers.FormsController.PutForm(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 209
+2019-02-04 19:22:19.6334|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-04 19:22:19.7224|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:25:30.9602|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-04 19:25:31.0472|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The teacher id 311 is already assigned to a form with id: 2. The teacher can only attend one form at a time.
+   at eSchool.Services.FormsService.Create(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 174
+   at eSchool.Controllers.FormsController.PostForm(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 244
+2019-02-04 19:25:44.5757|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-04 19:25:44.6848|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:26:44.2904|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, Change Attending Teacher Id to: 313
+2019-02-04 19:26:44.4725|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:28:15.3663|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, add Student Id: 101
+2019-02-04 19:28:15.4729|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:28:23.5012|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, add Student Id: 102
+2019-02-04 19:28:23.6162|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Student with id: 102 was not found.
+   at eSchool.Services.FormsService.AddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 247
+   at eSchool.Controllers.FormsController.PutFormAddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 323
+2019-02-04 19:28:30.3425|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, add Student Id: 103
+2019-02-04 19:28:30.6046|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:29:42.3888|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Remove for Subject Id: 8
+2019-02-04 19:29:42.5180|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The form id: 8 has 2 students assigned to it. For more info go to HttpGet at route: http://localhost:54164/project/students/assigned-to-form/8 . To delete this form, you need to assign students to a different form with HttpPut and route: http://localhost:54164/project/students/{id}/add-to-form/{formId:int}  . Thank you for your cooperation.
+   at eSchool.Services.FormsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 270
+   at eSchool.Controllers.FormsController.DeleteForm(Int32 id) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 359
+2019-02-04 19:46:39.3941|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-04 19:46:39.7146|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The form you are trying to create is already in the system. The form id:8
+   at eSchool.Services.FormsService.Create(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 188
+   at eSchool.Controllers.FormsController.PostForm(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 244
+2019-02-04 19:46:48.3783|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-04 19:46:48.6393|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:47:03.2238|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Remove for Subject Id: 9
+2019-02-04 19:47:03.5748|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-04 19:47:34.3101|INFO|eSchool.Controllers.LoggersController|UserId: 401: Requesting log file from 0 days ago.
+2019-02-04 19:47:34.3781|INFO|eSchool.Controllers.LoggersController|Success!
+2019-02-04 19:49:27.5120|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-04 19:49:28.2905|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-04 19:50:11.6746|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Subject by id: 1
+2019-02-04 19:50:12.1374|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-04 19:51:25.2479|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Update for Subject Id: 1
+2019-02-04 19:51:25.6599|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-04 19:52:04.3048|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Insert
+2019-02-04 19:52:04.5258|ERROR|eSchool.Controllers.SubjectsController|System.Web.HttpException (0x80004005): The Subject in already in the system.
+   at eSchool.Services.SubjectsService.Create(PostSubjectDTO newSubject) in D:\1-Project\Project\eSchool\Services\SubjectsService.cs:line 74
+   at eSchool.Controllers.SubjectsController.PostSubject(PostSubjectDTO newSubject) in D:\1-Project\Project\eSchool\Controllers\SubjectsController.cs:line 145
+2019-02-04 19:52:17.0135|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Insert
+2019-02-04 19:52:17.1966|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-04 19:52:41.8379|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 23
+2019-02-04 19:52:42.3362|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-04 19:53:04.3983|INFO|eSchool.Controllers.MarksController|UserId: 401: Requesting Mark Collection.
+2019-02-04 19:53:11.7015|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-04 19:53:44.2327|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 1
+2019-02-04 19:53:44.3347|ERROR|eSchool.Controllers.SubjectsController|System.Web.HttpException (0x80004005): The subject id 1 is still assign to a teacher. To delete this subject you need to change StoppedTeaching property in TeacherToSubject table for every teacher that is still teaching this subject with HttpPut at route: http://localhost:54164/project/teachers-to-subjects/by-subject/1/stopped-teaching-to-now
+   at eSchool.Services.SubjectsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\SubjectsService.cs:line 132
+   at eSchool.Controllers.SubjectsController.DeleteSubject(Int32 id) in D:\1-Project\Project\eSchool\Controllers\SubjectsController.cs:line 182
+2019-02-04 19:54:58.8700|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting StoppedTeaching Update to DateTime.UtcNow For Subject with Id: 1
+2019-02-04 19:54:59.0828|INFO|eSchool.Controllers.TeachersToSubjectsController|Success! Updated StoppedTeaching property to DateTime.UtcNow.
+2019-02-04 19:57:53.8156|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserRole: admin, UserId: 401: Requesting FormToTeacherSubject by id: 2
+2019-02-04 19:57:53.8722|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Requesting found FormToTeacherSubject convert for adminrole.
+2019-02-04 19:57:54.1397|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-04 23:17:40.8465|INFO|eSchool.Controllers.AdminsController|UserId: 401: Requesting Subject Remove for Subject Id: 401
+2019-02-04 23:17:41.2678|INFO|eSchool.Controllers.AdminsController|You cannot delete your own account!
+2019-02-04 23:19:12.5993|INFO|eSchool.Controllers.AdminsController|UserId: 401: Requesting Admin By ID 401
+2019-02-04 23:21:27.2461|INFO|eSchool.Controllers.AdminsController|UserId: 401: Requesting Update for Admin Id: 401
+2019-02-04 23:21:31.0421|INFO|eSchool.Controllers.AdminsController|Success!
+2019-02-04 23:22:01.1727|INFO|eSchool.Controllers.AdminsController|UserId: 401: Requesting admin by username: admin1
+2019-02-04 23:22:01.4167|INFO|eSchool.Controllers.AdminsController|The admin with username: admin1 was not found.
+2019-02-04 23:22:14.3737|INFO|eSchool.Controllers.AdminsController|UserId: 401: Requesting admin by username: owner
+2019-02-04 23:22:14.4327|INFO|eSchool.Controllers.AdminsController|Success!
+2019-02-04 23:22:41.9292|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by username: STudEnt1
+2019-02-04 23:22:42.1792|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-04 23:22:42.6864|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-04 23:23:06.8446|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 1
+2019-02-04 23:23:08.0611|ERROR|eSchool.Controllers.SubjectsController|System.Web.HttpException (0x80004005): The Subject with id: 1 has a list of marks in database. It can not be deleted in this school year.
+   at eSchool.Services.SubjectsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\SubjectsService.cs:line 118
+   at eSchool.Controllers.SubjectsController.DeleteSubject(Int32 id) in D:\1-Project\Project\eSchool\Controllers\SubjectsController.cs:line 182
+2019-02-04 23:23:23.7252|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 10
+2019-02-04 23:23:24.1029|ERROR|eSchool.Controllers.SubjectsController|System.Web.HttpException (0x80004005): The Subject with id: 10 has a list of marks in database. It can not be deleted in this school year.
+   at eSchool.Services.SubjectsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\SubjectsService.cs:line 118
+   at eSchool.Controllers.SubjectsController.DeleteSubject(Int32 id) in D:\1-Project\Project\eSchool\Controllers\SubjectsController.cs:line 182
+2019-02-04 23:23:44.5142|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 21
+2019-02-04 23:23:44.8333|ERROR|eSchool.Controllers.SubjectsController|System.Web.HttpException (0x80004005): The subject id 21 is still assign to a teacher. To delete this subject you need to change StoppedTeaching property in TeacherToSubject table for every teacher that is still teaching this subject with HttpPut at route: http://localhost:54164/project/teachers-to-subjects/by-subject/21/stopped-teaching-to-now
+   at eSchool.Services.SubjectsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\SubjectsService.cs:line 139
+   at eSchool.Controllers.SubjectsController.DeleteSubject(Int32 id) in D:\1-Project\Project\eSchool\Controllers\SubjectsController.cs:line 182
+2019-02-04 23:24:10.6346|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting StoppedTeaching Update to DateTime.UtcNow For Subject with Id: 21
+2019-02-04 23:24:11.5566|INFO|eSchool.Controllers.TeachersToSubjectsController|Success! Updated StoppedTeaching property to DateTime.UtcNow.
+2019-02-04 23:24:24.0702|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 21
+2019-02-04 23:24:24.5005|INFO|eSchool.Controllers.SubjectsController|Success!

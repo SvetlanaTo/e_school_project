@@ -1,0 +1,13 @@
+2019-02-03 18:17:51.1701|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-03 18:17:51.4362|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-03 18:19:38.7903|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Working Teachers Weekly Engagements Report.
+2019-02-03 18:25:24.6697|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-03 19:39:23.1104|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Working Teachers Weekly Engagements Report.
+2019-02-03 20:23:42.8954|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Working Teachers Weekly Engagements Report.
+2019-02-03 20:27:55.7847|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-03 20:31:30.2318|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Working Teachers Weekly Engagements Report.
+2019-02-03 20:32:30.2165|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-03 20:40:03.0518|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Working Teachers Weekly Engagements Report.
+2019-02-03 20:40:20.1886|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-03 20:43:54.1835|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Working Teachers Weekly Engagements Report.
+2019-02-03 20:45:40.4010|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!

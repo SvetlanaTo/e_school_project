@@ -1,0 +1,417 @@
+2019-02-05 13:02:27.0815|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-05 13:02:27.7873|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 13:07:02.4013|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 2
+2019-02-05 13:11:34.5301|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 13:16:47.9405|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-05 13:18:20.7431|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 13:18:41.5483|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-05 13:18:42.0957|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The teacher id 311 is already assigned to a form with id: 8. The teacher can only attend one form at a time.
+   at eSchool.Services.FormsService.Create(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 173
+   at eSchool.Controllers.FormsController.PostForm(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 229
+2019-02-05 13:19:05.8812|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-05 13:19:06.1873|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The form you are trying to create is already in the system. The form id:8
+   at eSchool.Services.FormsService.Create(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 186
+   at eSchool.Controllers.FormsController.PostForm(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 229
+2019-02-05 13:19:28.1507|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 8
+2019-02-05 13:19:28.3848|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 13:54:55.9166|INFO|eSchool.Controllers.SubjectsController|UserRole: parent, UserId: 202: Requesting Student Collection
+2019-02-05 13:54:56.1627|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-05 13:56:50.7930|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 202: Requesting Sorted Students Names Collection For Form Id: 2
+2019-02-05 14:00:22.9321|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 14:01:42.6198|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 202: Requesting Sorted Students Names Collection For Form Id: 2
+2019-02-05 14:02:49.7087|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 14:03:09.4108|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 202: Requesting Sorted Students Names Collection For Form Id: 1
+2019-02-05 14:03:10.2265|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Access Denied. We’re sorry, but you are not authorized to perform the requested operation.
+   at eSchool.Services.FormsService.GetSortedStudentsNamesByFormIdForParent(Int32 formId, String parentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 354
+   at eSchool.Controllers.FormsController.GetSortedStudentsNamesByFormId(Int32 id) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 394
+2019-02-05 14:04:27.4093|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Sorted Students Names Collection For Form Id: 3
+2019-02-05 14:04:27.7136|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Access Denied. We’re sorry, but you are not authorized to perform the requested operation.
+   at eSchool.Services.FormsService.GetSortedStudentsNamesByFormIdForParent(Int32 formId, String parentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 354
+   at eSchool.Controllers.FormsController.GetSortedStudentsNamesByFormId(Int32 id) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 394
+2019-02-05 14:05:13.0084|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Sorted Students Names Collection For Form Id: 5
+2019-02-05 14:05:13.3379|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 14:05:32.1469|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Sorted Students Names Collection For Form Id: 2
+2019-02-05 14:05:32.8421|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 14:06:39.6280|INFO|eSchool.Controllers.FormsController|UserRole: student, UserId: 119: Requesting Sorted Students Names Collection For Form Id: 1
+2019-02-05 14:06:39.7730|INFO|eSchool.Controllers.FormsController|Authorisation failure. User 119 is not authorised for this request.
+2019-02-05 14:06:49.2344|INFO|eSchool.Controllers.FormsController|UserRole: student, UserId: 119: Requesting Sorted Students Names Collection For Form Id: 6
+2019-02-05 14:06:49.7506|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 15:42:06.9510|INFO|eSchool.Controllers.FormsController|UserId: 119: Requesting Sorted Form List For Grade: 5 For Year: 2018
+2019-02-05 15:43:45.3465|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 15:44:12.6552|INFO|eSchool.Controllers.FormsController|UserId: 119: Requesting Sorted Form List For Grade: 7 For Year: 2018
+2019-02-05 15:44:13.3427|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Your search for grade: 7 and year: 2018 didn't match any forms.
+   at eSchool.Services.FormsService.GetSortedFormsByGradeByYear(Int32 grade, Int32 year) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 383
+   at eSchool.Controllers.FormsController.GetSortedFormsByGradeByYear(Int32 grade, Int32 year) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 426
+2019-02-05 15:44:27.6709|INFO|eSchool.Controllers.FormsController|UserId: 119: Requesting Sorted Form List For Grade: 8 For Year: 2017
+2019-02-05 15:44:28.9157|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 15:44:49.3691|INFO|eSchool.Controllers.FormsController|UserRole: student, UserId: 119: Requesting Sorted Students Names Collection For Form Id: 1
+2019-02-05 15:44:49.7821|INFO|eSchool.Controllers.FormsController|Authorisation failure. User 119 is not authorised for this request.
+2019-02-05 18:05:00.0017|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form by attending teacher's user name: teacher1
+2019-02-05 18:05:01.5690|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The Form with attending teacher: Milica Andric was not found.
+   at eSchool.Services.FormsService.GetFormByAttendingTeacherLastName(String teacherUserName) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 401
+   at eSchool.Controllers.FormsController.GetFormByAttendingTeacherUserName(String teacherUserName) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 450
+2019-02-05 18:05:23.0920|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form by attending teacher's user name: teacher2
+2019-02-05 18:05:23.7761|INFO|eSchool.Controllers.FormsController|Success! Form by id: 1
+2019-02-05 18:05:35.1953|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form by attending teacher's user name: teacher3
+2019-02-05 18:05:35.3987|INFO|eSchool.Controllers.FormsController|Success! Form by id: 2
+2019-02-05 18:05:45.0399|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form by attending teacher's user name: teacher4
+2019-02-05 18:05:45.4006|INFO|eSchool.Controllers.FormsController|Success! Form by id: 3
+2019-02-05 18:05:52.5419|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form by attending teacher's user name: teacher5
+2019-02-05 18:05:52.7999|INFO|eSchool.Controllers.FormsController|Success! Form by id: 4
+2019-02-05 18:06:00.9069|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form by attending teacher's user name: teacher10
+2019-02-05 18:06:01.1715|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The Form with attending teacher: Predrag Kovac was not found.
+   at eSchool.Services.FormsService.GetFormByAttendingTeacherLastName(String teacherUserName) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 401
+   at eSchool.Controllers.FormsController.GetFormByAttendingTeacherUserName(String teacherUserName) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 450
+2019-02-05 19:15:24.9957|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 1, add Student Id: 2
+2019-02-05 19:19:57.2010|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The Form with id: 1 did not start in this shool year. This form is from: 2017. Students must be assign to a form from this school year.
+   at eSchool.Services.FormsService.AddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 247
+   at eSchool.Controllers.FormsController.PutFormAddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 296
+2019-02-05 19:29:25.8637|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 4, add Student Id: 2
+2019-02-05 19:29:39.8369|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Student with id: 2 was not found.
+   at eSchool.Services.FormsService.AddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 254
+   at eSchool.Controllers.FormsController.PutFormAddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 296
+2019-02-05 19:29:54.7893|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 4, add Student Id: 102
+2019-02-05 19:29:54.9487|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 19:31:28.7296|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 4
+2019-02-05 19:31:29.1123|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 19:55:53.7880|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Form Collection
+2019-02-05 19:56:49.4434|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 19:57:04.3355|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Form by id: 1
+2019-02-05 19:57:04.5016|INFO|eSchool.Controllers.FormsController|Requesting found form convert for adminrole.
+2019-02-05 19:57:05.5408|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 19:58:59.1999|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-05 19:59:00.2252|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The teacher id 301 is no longer working in this shool. You must assing someone who is still working.
+   at eSchool.Services.FormsService.Update(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 141
+   at eSchool.Controllers.FormsController.PutForm(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 188
+2019-02-05 19:59:17.9835|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-05 19:59:18.7577|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The form you are creating by this update is already in the system. The form id:4
+   at eSchool.Services.FormsService.Update(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 156
+   at eSchool.Controllers.FormsController.PutForm(Int32 id, PutFormDTO updated) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 188
+2019-02-05 19:59:34.5178|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-05 19:59:34.5618|ERROR|eSchool.Controllers.FormsController|Updated Form id 1 doesn't match the id 2 from the request (route).
+2019-02-05 19:59:45.8625|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Update for Form Id: 2
+2019-02-05 19:59:46.5978|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:05:06.3856|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-05 20:05:06.6487|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The teacher id 310 is already assigned to a form with id: 2. The teacher can only attend one form at a time.
+   at eSchool.Services.FormsService.Create(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 177
+   at eSchool.Controllers.FormsController.PostForm(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 223
+2019-02-05 20:05:18.5156|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-05 20:05:18.6887|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The form you are trying to create is already in the system. The form id:2
+   at eSchool.Services.FormsService.Create(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 195
+   at eSchool.Controllers.FormsController.PostForm(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 223
+2019-02-05 20:05:26.8331|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-05 20:05:26.9851|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:08:14.8142|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, Change Attending Teacher Id to: 301
+2019-02-05 20:08:14.9232|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The teacher id 301 is no longer working in this shool. You must assing someone who is still working.
+   at eSchool.Services.FormsService.ChangeAttendingTeacher(Int32 id, String teacherId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 241
+   at eSchool.Controllers.FormsController.PutChangeAttendingTeacher(Int32 id, String teacherId) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 260
+2019-02-05 20:08:22.3578|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, Change Attending Teacher Id to: 3000
+2019-02-05 20:08:22.5438|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Attending teacher with id: 3000 was not found.
+   at eSchool.Services.FormsService.ChangeAttendingTeacher(Int32 id, String teacherId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 229
+   at eSchool.Controllers.FormsController.PutChangeAttendingTeacher(Int32 id, String teacherId) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 260
+2019-02-05 20:08:30.8230|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, Change Attending Teacher Id to: 312
+2019-02-05 20:08:30.9811|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:09:30.4208|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 80, Change Attending Teacher Id to: 312
+2019-02-05 20:09:30.4798|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The Form with id: 80 was not found.
+   at eSchool.Services.FormsService.ChangeAttendingTeacher(Int32 id, String teacherId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 223
+   at eSchool.Controllers.FormsController.PutChangeAttendingTeacher(Int32 id, String teacherId) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 260
+2019-02-05 20:10:33.7010|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, add Student Id: 102
+2019-02-05 20:10:34.0341|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:10:46.4060|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 1, add Student Id: 102
+2019-02-05 20:10:46.4990|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The Form with id: 1 did not start in this shool year. This form is from: 2017. Students must be assign to a form from this school year.
+   at eSchool.Services.FormsService.AddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 264
+   at eSchool.Controllers.FormsController.PutFormAddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 293
+2019-02-05 20:11:39.5173|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, add Student Id: 102
+2019-02-05 20:11:39.7945|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:20:02.4609|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Remove for Subject Id: 8
+2019-02-05 20:20:02.6475|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The form id: 8 has 1 students assigned to it. For more info go to HttpGet at route: http://localhost:54164/project/students/assigned-to-form/8 . To delete this form, you need to assign students to a different form with HttpPut and route: http://localhost:54164/project/students/{id}/add-to-form/{formId:int}  . Thank you for your cooperation.
+   at eSchool.Services.FormsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 299
+   at eSchool.Controllers.FormsController.DeleteForm(Int32 id) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 327
+2019-02-05 20:20:19.6563|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection For Form Id: 8
+2019-02-05 20:20:19.8384|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 20:25:02.1821|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 102, add Student to Form Id: 2
+2019-02-05 20:25:02.4272|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 20:26:46.1478|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Remove for Subject Id: 8
+2019-02-05 20:26:46.4898|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:26:54.4944|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Form by id: 8
+2019-02-05 20:26:54.5744|INFO|eSchool.Controllers.FormsController|The form with id: 8 was not found.
+2019-02-05 20:27:23.4334|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 2
+2019-02-05 20:27:23.7190|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:27:39.4703|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 200
+2019-02-05 20:27:39.6314|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The Form with id: 200 was not found.
+   at eSchool.Services.FormsService.GetSortedStudentsNamesByFormId(Int32 id) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 318
+   at eSchool.Controllers.FormsController.GetSortedStudentsNamesByFormId(Int32 id) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 363
+2019-02-05 20:28:17.1228|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Sorted Form List For Grade: 5 For Year: 2018
+2019-02-05 20:28:17.2868|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:28:42.1763|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Sorted Form List For Grade: 6 For Year: 2018
+2019-02-05 20:28:42.2083|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:28:49.2591|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Sorted Form List For Grade: 1 For Year: 2018
+2019-02-05 20:28:49.3372|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Your search for grade: 1 and year: 2018 didn't match any forms.
+   at eSchool.Services.FormsService.GetSortedFormsByGradeByYear(Int32 grade, Int32 year) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 416
+   at eSchool.Controllers.FormsController.GetSortedFormsByGradeByYear(Int32 grade, Int32 year) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 418
+2019-02-05 20:29:16.6486|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Sorted Form List For Grade: 1 For Year: 2017
+2019-02-05 20:29:16.7276|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Your search for grade: 1 and year: 2017 didn't match any forms.
+   at eSchool.Services.FormsService.GetSortedFormsByGradeByYear(Int32 grade, Int32 year) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 416
+   at eSchool.Controllers.FormsController.GetSortedFormsByGradeByYear(Int32 grade, Int32 year) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 418
+2019-02-05 20:29:24.6833|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Sorted Form List For Grade: 8 For Year: 2017
+2019-02-05 20:29:24.7043|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:29:56.1026|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form by attending teacher's user name: teacher1
+2019-02-05 20:29:56.3287|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Teacher Milica Andric is currenty not assign to any form.
+   at eSchool.Services.FormsService.GetFormByAttendingTeacherLastName(String teacherUserName) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 434
+   at eSchool.Controllers.FormsController.GetFormByAttendingTeacherUserName(String teacherUserName) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 443
+2019-02-05 20:30:14.4326|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form by attending teacher's user name: teacher2
+2019-02-05 20:30:14.4736|INFO|eSchool.Controllers.FormsController|Success! Form by id: 1
+2019-02-05 20:38:59.4888|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-05 20:39:35.4419|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The teacher id 302 is already assigned to a form with id: 1. The teacher can only attend one form at a time.
+   at eSchool.Services.FormsService.Create(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 177
+   at eSchool.Controllers.FormsController.PostForm(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 223
+2019-02-05 20:39:49.9990|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-05 20:39:50.5283|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The form you are trying to create is already in the system. The form id:4
+   at eSchool.Services.FormsService.Create(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 195
+   at eSchool.Controllers.FormsController.PostForm(PostFormDTO newForm) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 223
+2019-02-05 20:40:05.4169|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Insert
+2019-02-05 20:40:05.5839|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:40:36.6895|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Remove for Subject Id: 1
+2019-02-05 20:40:36.9225|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The form id: 1 has 1 students assigned to it. For more info go to HttpGet at route: http://localhost:54164/project/forms/1/students . To delete this form, you need to assign students to a different form with HttpPut and route: http://localhost:54164/project/students/{id}/add-to-form/{formId:int}  . Thank you for your cooperation.
+   at eSchool.Services.FormsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 299
+   at eSchool.Controllers.FormsController.DeleteForm(Int32 id) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 327
+2019-02-05 20:40:51.0958|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 1
+2019-02-05 20:40:51.2008|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:41:24.4153|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 101, add Student to Form Id: 2
+2019-02-05 20:41:25.2399|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 20:41:40.7462|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Remove for Subject Id: 1
+2019-02-05 20:41:41.1143|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:41:49.5756|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Form by id: 1
+2019-02-05 20:41:49.5926|INFO|eSchool.Controllers.FormsController|The form with id: 1 was not found.
+2019-02-05 20:47:25.9140|INFO|eSchool.Controllers.FormsController|UserRole: student, UserId: 102: Requesting Form Collection
+2019-02-05 20:47:26.8271|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:48:09.5476|INFO|eSchool.Controllers.FormsController|UserRole: student, UserId: 102: Requesting Form by id: 3
+2019-02-05 20:48:09.7791|INFO|eSchool.Controllers.FormsController|Authorisation failure. User 102 is not authorised for this request.
+2019-02-05 20:48:14.2523|INFO|eSchool.Controllers.FormsController|UserRole: student, UserId: 102: Requesting Form by id: 2
+2019-02-05 20:48:14.2893|INFO|eSchool.Controllers.FormsController|Requesting found form convert for student role.
+2019-02-05 20:48:14.3133|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:48:48.1616|INFO|eSchool.Controllers.FormsController|UserRole: student, UserId: 102: Requesting Sorted Students Names Collection For Form Id: 2
+2019-02-05 20:48:48.1956|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:52:43.3015|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Form Collection
+2019-02-05 20:52:43.4655|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:52:57.2643|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Form by id: 4
+2019-02-05 20:52:57.6425|INFO|eSchool.Controllers.FormsController|Authorisation failure. User 203 is not authorised for this request.
+2019-02-05 20:53:03.8527|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Form by id: 40
+2019-02-05 20:53:03.8997|INFO|eSchool.Controllers.FormsController|The form with id: 40 was not found.
+2019-02-05 20:53:17.0270|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Sorted Students Names Collection For Form Id: 4
+2019-02-05 20:53:17.6964|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Access Denied. We’re sorry, but you are not authorized to perform the requested operation.
+   at eSchool.Services.FormsService.GetSortedStudentsNamesByFormIdForParent(Int32 formId, String parentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 385
+   at eSchool.Controllers.FormsController.GetSortedStudentsNamesByFormId(Int32 id) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 387
+2019-02-05 20:53:25.1768|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Sorted Students Names Collection For Form Id: 2
+2019-02-05 20:53:25.2528|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:53:34.3246|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Sorted Students Names Collection For Form Id: 3
+2019-02-05 20:53:34.4866|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): Access Denied. We’re sorry, but you are not authorized to perform the requested operation.
+   at eSchool.Services.FormsService.GetSortedStudentsNamesByFormIdForParent(Int32 formId, String parentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 385
+   at eSchool.Controllers.FormsController.GetSortedStudentsNamesByFormId(Int32 id) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 387
+2019-02-05 20:53:42.4661|INFO|eSchool.Controllers.FormsController|UserRole: parent, UserId: 203: Requesting Sorted Students Names Collection For Form Id: 5
+2019-02-05 20:53:42.5701|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:54:20.1649|INFO|eSchool.Controllers.FormsController|UserRole: teacher, UserId: 302: Requesting Form Collection
+2019-02-05 20:54:20.2569|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:54:38.8138|INFO|eSchool.Controllers.FormsController|UserRole: teacher, UserId: 302: Requesting Form by id: 4
+2019-02-05 20:54:38.8598|INFO|eSchool.Controllers.FormsController|Requesting found form convert for teacherrole.
+2019-02-05 20:54:38.8878|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:54:46.8221|INFO|eSchool.Controllers.FormsController|UserRole: teacher, UserId: 302: Requesting Sorted Students Names Collection For Form Id: 4
+2019-02-05 20:54:46.8571|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:54:52.3738|INFO|eSchool.Controllers.FormsController|UserRole: teacher, UserId: 302: Requesting Sorted Students Names Collection For Form Id: 6
+2019-02-05 20:54:52.4938|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 20:54:56.9515|INFO|eSchool.Controllers.FormsController|UserRole: teacher, UserId: 302: Requesting Sorted Students Names Collection For Form Id: 7
+2019-02-05 20:54:57.0335|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 21:07:12.5460|INFO|eSchool.Controllers.StudentsController|UserRole: teacher, UserId: 302: Requesting Student Collection
+2019-02-05 21:09:38.5029|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 21:50:47.0751|INFO|eSchool.Controllers.StudentsController|UserRole: teacher, UserId: 302: Requesting Student by id: 105
+2019-02-05 21:50:47.9802|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for teacherrole.
+2019-02-05 21:50:48.0426|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 21:51:23.6031|INFO|eSchool.Controllers.StudentsController|UserRole: teacher, UserId: 302: Requesting Student by username: student1
+2019-02-05 21:51:24.0194|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for teacherrole.
+2019-02-05 21:51:24.2213|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 21:51:31.9144|INFO|eSchool.Controllers.StudentsController|UserRole: teacher, UserId: 302: Requesting Student by username: student100
+2019-02-05 21:51:32.0394|INFO|eSchool.Controllers.StudentsController|The student with username: student100 was not found.
+2019-02-05 21:58:18.5613|INFO|eSchool.Controllers.StudentsController|UserRole: teacher, UserId: 302: Requesting Students Collection Assigned to Parnet by id: 201
+2019-02-05 21:58:18.9477|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for teacherrole.
+2019-02-05 21:58:18.9633|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 21:58:25.8173|INFO|eSchool.Controllers.StudentsController|UserRole: teacher, UserId: 302: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-05 21:58:25.8383|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for teacherrole.
+2019-02-05 21:58:25.8553|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 21:58:32.4012|INFO|eSchool.Controllers.StudentsController|UserRole: teacher, UserId: 302: Requesting Students Collection Assigned to Parnet by id: 203
+2019-02-05 21:58:32.4502|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for teacherrole.
+2019-02-05 21:58:32.5052|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 21:58:58.5946|INFO|eSchool.Controllers.StudentsController|UserRole: teacher, UserId: 302: Requesting Student Collection For Form Id: 5
+2019-02-05 21:58:58.6981|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 21:59:54.9536|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-05 21:59:55.1812|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:00:10.8172|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 108
+2019-02-05 22:00:10.8445|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-05 22:00:10.9383|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:00:30.2149|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 204
+2019-02-05 22:00:30.2559|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-05 22:00:30.2869|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:03:00.0230|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 101
+2019-02-05 22:03:00.1409|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-05 22:03:00.1878|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:03:32.0156|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 101
+2019-02-05 22:03:32.0937|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-05 22:03:32.1884|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:03:47.3884|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 101
+2019-02-05 22:03:47.4324|ERROR|eSchool.Controllers.StudentsController|Updated student id 102 doesn't match the id 101 from the request (route).
+2019-02-05 22:04:03.0672|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 101
+2019-02-05 22:04:04.0620|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The username student2 already exists. Leave blank if you don't want to change the user name.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 275
+2019-02-05 22:05:24.8284|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 101
+2019-02-05 22:05:25.0505|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The username student1 already exists. Leave blank if you don't want to change the user name.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 275
+2019-02-05 22:05:48.0854|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 101
+2019-02-05 22:05:48.7839|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The user with JMBG: 1111111111111 is already in the sistem.Leave blank if you don't want to change the JMBG.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 162
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 275
+2019-02-05 22:06:40.3438|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 101
+2019-02-05 22:06:40.4688|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The Form with id: 200 was not found
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 193
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 275
+2019-02-05 22:07:16.0624|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Update for Student Id: 101
+2019-02-05 22:07:22.0479|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:09:17.3277|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-05 22:09:17.4841|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-05 22:09:17.5152|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:09:40.1931|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: 102
+2019-02-05 22:09:40.6895|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:10:02.9684|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 2
+2019-02-05 22:10:03.0153|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 22:10:17.3108|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 202
+2019-02-05 22:10:17.4128|INFO|eSchool.Controllers.ParentsController|Requesting found parent convert for adminrole.
+2019-02-05 22:10:17.4278|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-05 22:10:32.4262|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-05 22:10:32.4792|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-05 22:10:32.6872|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:10:44.7641|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: 103
+2019-02-05 22:10:45.0671|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:11:06.8021|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-05 22:11:06.8431|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-05 22:11:06.8691|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:11:17.3820|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Remove for Student Id: 104
+2019-02-05 22:11:17.6161|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:11:27.8862|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-05 22:11:28.0112|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The parent with id: 202 was not found.
+   at eSchool.Services.StudentsService.GetStudentsAssignedToParentId(String parentId) in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 283
+   at eSchool.Controllers.StudentsController.GetStudentsAssignedToParentId(String parentId) in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 441
+2019-02-05 22:12:26.9066|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Image Upload for Student Id: 101
+2019-02-05 22:12:27.0785|INFO|eSchool.Controllers.StudentsController|Server file path: D:\1-Project\Project\eSchool\App_Data\BodyPart_d583098e-3192-4ac0-b7ac-316a01a4bb32
+2019-02-05 22:12:27.5637|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:13:04.7977|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 101. Assigning new parent id: 202
+2019-02-05 22:13:04.9794|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The parent with id: 202 was not found.
+   at eSchool.Services.StudentsService.UpdateStudentParent(String id, String parentId) in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 265
+   at eSchool.Controllers.StudentsController.PutStudentToNewParent(String id, String parentId) in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 405
+2019-02-05 22:13:09.5402|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 101. Assigning new parent id: 203
+2019-02-05 22:13:13.2202|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:13:27.9774|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 201
+2019-02-05 22:13:28.0087|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-05 22:13:28.0243|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:14:38.5548|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 101, add Student to Form Id: 1
+2019-02-05 22:14:38.6268|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The student by id 101 no longer has an active status
+   at eSchool.Services.StudentsService.UpdateStudentForm(String id, Int32 formId) in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 295
+   at eSchool.Controllers.StudentsController.PutStudentForm(String id, Int32 formId) in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 483
+2019-02-05 22:15:04.6227|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 105, add Student to Form Id: 1
+2019-02-05 22:15:04.8107|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:15:09.1487|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 105, add Student to Form Id: 2
+2019-02-05 22:15:09.2337|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:15:43.2801|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection For Form Id: 2
+2019-02-05 22:15:43.3101|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 22:16:03.5405|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 2
+2019-02-05 22:16:03.5665|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-05 23:06:53.8444|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 101. Assigning new parent id: 202
+2019-02-05 23:14:49.9761|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 101. Assigning new parent id: 202
+2019-02-05 23:15:51.0680|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 23:17:16.1280|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 101
+2019-02-05 23:17:18.0329|ERROR|eSchool.Controllers.ParentsController|System.InvalidOperationException: The specified cast from a materialized 'System.Data.Entity.DynamicProxies.Student_3CC3CFDFABF2551BB3F9D62DA18C9EED86E6FB6C867F269071C8B8D248FA3537' type to the 'eSchool.Models.Parent' type is not valid.
+   at System.Data.Entity.Core.Common.Internal.Materialization.CodeGenEmitter.CheckedConvert[TSource,TTarget](TSource value)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__2[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.FindInStore(WrappedEntityKey key, String keyValuesParamName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at eSchool.Repositories.GenericRepository`1.GetByID(Object id) in D:\1-Project\Project\eSchool\Repositories\GenericRepository.cs:line 23
+   at eSchool.Services.ParentsService.GetByID(String id) in D:\1-Project\Project\eSchool\Services\ParentsService.cs:line 55
+   at eSchool.Controllers.ParentsController.GetParentById(String id) in D:\1-Project\Project\eSchool\Controllers\ParentsController.cs:line 134
+2019-02-05 23:17:31.6075|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 201
+2019-02-05 23:17:31.8459|INFO|eSchool.Controllers.ParentsController|The parent with id: 201 was not found.
+2019-02-05 23:17:51.3618|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 202
+2019-02-05 23:17:51.7928|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-05 23:17:51.8781|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 23:19:47.3608|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 103
+2019-02-05 23:19:48.3938|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The username student2 already exists. Leave blank if you don't want to change the user name.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 155
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 267
+2019-02-05 23:20:04.9865|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 103
+2019-02-05 23:20:05.6144|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The user with JMBG: 1111111111145 is already in the sistem.Leave blank if you don't want to change the JMBG.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 165
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 267
+2019-02-05 23:20:24.0017|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 103
+2019-02-05 23:20:24.6804|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The Form with id: 103 was not created for this shool year. This form is from: 2017. Students must be assign to a form from this school year.
+   at eSchool.Services.StudentsService.<Update>d__14.MoveNext() in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 198
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.StudentsController.<PutStudent>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 267
+2019-02-05 23:20:42.1226|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 103
+2019-02-05 23:20:48.3231|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 23:21:38.3083|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 103, add Student to Form Id: 1
+2019-02-05 23:21:38.5659|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The student by id 103 is no longer actively enrolled in this school.
+   at eSchool.Services.StudentsService.UpdateStudentForm(String id, Int32 formId) in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 322
+   at eSchool.Controllers.StudentsController.PutStudentForm(String id, Int32 formId) in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 477
+2019-02-05 23:21:53.7101|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 105, add Student to Form Id: 1
+2019-02-05 23:21:54.1605|ERROR|eSchool.Controllers.StudentsController|System.Web.HttpException (0x80004005): The Form with id: 1 was not created for this shool year. This form is from: 2017. Students must be assign to a form from this school year.
+   at eSchool.Services.StudentsService.UpdateStudentForm(String id, Int32 formId) in D:\1-Project\Project\eSchool\Services\StudentsService.cs:line 333
+   at eSchool.Controllers.StudentsController.PutStudentForm(String id, Int32 formId) in D:\1-Project\Project\eSchool\Controllers\StudentsController.cs:line 477
+2019-02-05 23:22:10.5655|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Student Update For Student Id: 105, add Student to Form Id: 7
+2019-02-05 23:22:11.9659|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 23:46:54.5843|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student List - By Last Name: topalov - Sorted Asc By Name
+2019-02-05 23:48:47.8690|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 23:49:10.8688|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student List - By Last Name: Kovac - Sorted Asc By Name
+2019-02-05 23:49:11.3053|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 23:49:33.5118|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student List - By Last Name: marijanovic - Sorted Asc By Name
+2019-02-05 23:49:33.7426|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 23:49:48.1267|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 113
+2019-02-05 23:49:48.9494|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-05 23:49:49.6032|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-05 23:50:11.2579|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 4
+2019-02-05 23:50:11.8058|INFO|eSchool.Controllers.FormsController|Success!

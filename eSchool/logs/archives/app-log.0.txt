@@ -1,0 +1,129 @@
+2019-02-09 10:27:00.4238|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 202
+2019-02-09 10:28:43.2863|INFO|eSchool.Controllers.ParentsController|Requesting found parent convert for adminrole.
+2019-02-09 10:28:43.3413|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-09 10:29:01.7500|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 210
+2019-02-09 10:29:01.9396|INFO|eSchool.Controllers.ParentsController|Requesting found parent convert for adminrole.
+2019-02-09 10:29:02.3116|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-09 10:30:54.4024|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Update for Parent Id: 210
+2019-02-09 10:30:56.2067|ERROR|eSchool.Controllers.ParentsController|System.Web.HttpException (0x80004005): The username paren10 already exists. Leave blank if you don't want to change the user name.
+   at eSchool.Services.ParentsService.<Update>d__13.MoveNext() in D:\1-Project\Project\eSchool\Services\ParentsService.cs:line 184
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.ParentsController.<PutParent>d__8.MoveNext() in D:\1-Project\Project\eSchool\Controllers\ParentsController.cs:line 300
+2019-02-09 10:31:30.4996|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Update for Parent Id: 210
+2019-02-09 10:31:31.9111|ERROR|eSchool.Controllers.ParentsController|System.Web.HttpException (0x80004005): The user with JMBG: 1111111111134 is already in the sistem.Leave blank if you don't want to change the JMBG.
+   at eSchool.Services.ParentsService.<Update>d__13.MoveNext() in D:\1-Project\Project\eSchool\Services\ParentsService.cs:line 194
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.ParentsController.<PutParent>d__8.MoveNext() in D:\1-Project\Project\eSchool\Controllers\ParentsController.cs:line 300
+2019-02-09 10:35:23.7786|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Update for Parent Id: 210
+2019-02-09 10:36:04.2289|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-09 10:39:52.0430|INFO|eSchool.Controllers.ParentsController|UserId: 401: Requesting Parent Remove for Parent Id: 211
+2019-02-09 10:39:53.5445|ERROR|eSchool.Controllers.ParentsController|System.Web.HttpException (0x80004005): The Parent id: 211 has 1 student/students assigned to his name. For more info go to HttpGet at route: http://localhost:54164/project/students/assigned-to-parent/211 . To delete this Parent, you need to assign student/students to a different guardian with HttpPut and route: http://localhost:54164/project/students/{id}/assign-to-parent/{parentId}  or delete parent with student. Thank you for your cooperation.
+   at eSchool.Services.ParentsService.Delete(String id) in D:\1-Project\Project\eSchool\Services\ParentsService.cs:line 242
+   at eSchool.Controllers.ParentsController.DeleteParent(String id) in D:\1-Project\Project\eSchool\Controllers\ParentsController.cs:line 336
+2019-02-09 10:40:11.1240|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Students Collection Assigned to Parnet by id: 211
+2019-02-09 10:40:11.4471|INFO|eSchool.Controllers.StudentsController|Requesting found parent Students collection convert for adminrole.
+2019-02-09 10:40:11.7312|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-09 10:40:57.3525|INFO|eSchool.Controllers.StudentsController|UserId: 401: Requesting Update for Student Id: 116. Assigning new parent id: 202
+2019-02-09 10:41:02.4715|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-09 10:41:11.1070|INFO|eSchool.Controllers.ParentsController|UserId: 401: Requesting Parent Remove for Parent Id: 211
+2019-02-09 10:41:11.2070|ERROR|eSchool.Controllers.ParentsController|System.Web.HttpException (0x80004005): The Parent with id: 211 was not found.
+   at eSchool.Services.ParentsService.Delete(String id) in D:\1-Project\Project\eSchool\Services\ParentsService.cs:line 229
+   at eSchool.Controllers.ParentsController.DeleteParent(String id) in D:\1-Project\Project\eSchool\Controllers\ParentsController.cs:line 336
+2019-02-09 10:45:16.2070|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parnet by id: 211
+2019-02-09 10:45:16.4234|INFO|eSchool.Controllers.ParentsController|The parent with id: 211 was not found.
+2019-02-09 10:45:27.9547|INFO|eSchool.Controllers.ParentsController|UserRole: admin, UserId: 401: Requesting Parent Collection
+2019-02-09 10:45:28.3098|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-09 10:46:04.8922|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Form Id: 2 For Attending Teacher
+2019-02-09 10:46:06.2052|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-09 10:47:00.2127|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 2, add Student Id: 126
+2019-02-09 10:47:00.4231|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-09 10:47:16.1942|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 2, add Student Id: 127
+2019-02-09 10:47:16.2902|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The student with id: 127 is no longer actively enrolled in this school.
+   at eSchool.Services.FormsService.AddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 276
+   at eSchool.Controllers.FormsController.PutFormAddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 293
+2019-02-09 10:47:28.0152|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, add Student Id: 126
+2019-02-09 10:47:28.1412|ERROR|eSchool.Controllers.FormsController|System.Web.HttpException (0x80004005): The Form with id: 8 was not created for this shool year. This form is from: 2017. Students must be assign to a form from this school year.
+   at eSchool.Services.FormsService.AddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Services\FormsService.cs:line 264
+   at eSchool.Controllers.FormsController.PutFormAddStudent(Int32 id, String studentId) in D:\1-Project\Project\eSchool\Controllers\FormsController.cs:line 293
+2019-02-09 10:48:44.8962|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting Teacher Remove for Teacher Id: 301
+2019-02-09 10:48:45.2443|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-09 10:49:05.4817|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting Teacher Remove for Teacher Id: 309
+2019-02-09 10:49:05.6678|ERROR|eSchool.Controllers.TeachersController|System.Web.HttpException (0x80004005): The Teacher with id: 309 has a list of marks in database. It can not be deleted. If you want to stop the teacher's engagements you need to update Teacher's property IsStillWorking to false with HttpPut at http://localhost:54164/project/teachers/309/stopped-working
+   at eSchool.Services.TeachersService.Delete(String id) in D:\1-Project\Project\eSchool\Services\TeachersService.cs:line 152
+   at eSchool.Controllers.TeachersController.DeleteTeacher(String id) in D:\1-Project\Project\eSchool\Controllers\TeachersController.cs:line 299
+2019-02-09 10:50:08.9667|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Forms To Teacher-Subject Collection By teacher id: 309
+2019-02-09 10:50:09.1865|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-09 10:50:38.0364|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting IsStillWorking Update to False For Teacher with Id: 309 and updating All engagements in TeacherToSubject and FormToTeacherSubject Tables.
+2019-02-09 10:50:38.5816|ERROR|eSchool.Controllers.TeachersController|System.Web.HttpException (0x80004005): The teacher id: 309 is assigned to the form with id: 8. To archive this teacher, first you need to assign a new Attending Teacher to that Form with HttpPut and route: http://localhost:54164/project/forms/8/attending-teacher/{newAttendingTeacherId} 
+   at eSchool.Services.TeachersService.StoppedWorkingAndEndedAllEngagementsInTSAndFTSByTeacherId(String id) in D:\1-Project\Project\eSchool\Services\TeachersService.cs:line 253
+   at eSchool.Controllers.TeachersController.StoppedWorkingAndEndedAllEngagementsInTSAndFTSByTeacherId(String id) in D:\1-Project\Project\eSchool\Controllers\TeachersController.cs:line 389
+2019-02-09 10:53:48.4601|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, Change Attending Teacher Id to: 310
+2019-02-09 10:53:49.1973|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-09 10:53:55.7944|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting IsStillWorking Update to False For Teacher with Id: 309 and updating All engagements in TeacherToSubject and FormToTeacherSubject Tables.
+2019-02-09 10:53:55.9655|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-09 10:54:07.5857|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Forms To Teacher-Subject Collection By teacher id: 309
+2019-02-09 10:54:07.8547|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-09 12:15:41.4337|INFO|eSchool.Controllers.LoggersController|UserId: 401: Requesting log file from 0 days ago.
+2019-02-09 12:15:41.7432|INFO|eSchool.Controllers.LoggersController|Success!
+2019-02-09 12:32:14.9457|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-09 12:32:29.5888|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-09 13:05:27.1348|INFO|eSchool.Controllers.LoggersController|UserId: 401: Requesting log file from 0 days ago.
+2019-02-09 13:05:27.1748|INFO|eSchool.Controllers.LoggersController|Success!
+2019-02-09 13:06:45.3594|INFO|eSchool.Controllers.ParentsController|UserId: 401: Requesting User Account By Jmbg: 1111111111125
+2019-02-09 13:06:45.7844|INFO|eSchool.Controllers.ParentsController|Success!
+2019-02-09 13:07:50.1540|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Report Card For Student Id: 102
+2019-02-09 13:07:54.1516|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-09 13:15:30.6223|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Working Teachers Weekly Engagements Report.
+2019-02-09 13:15:34.5634|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-09 13:36:20.7511|INFO|eSchool.Controllers.StudentsController|UserRole: admin, UserId: 401: Requesting Student by id: 102
+2019-02-09 13:36:21.6990|INFO|eSchool.Controllers.StudentsController|Requesting found student convert for adminrole.
+2019-02-09 13:36:22.0597|INFO|eSchool.Controllers.StudentsController|Success!
+2019-02-09 13:36:53.5061|INFO|eSchool.Controllers.LoggersController|UserId: 401: Requesting log file from 0 days ago.
+2019-02-09 13:36:53.5801|INFO|eSchool.Controllers.LoggersController|Success!
+2019-02-09 13:39:30.2568|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Marks By Form Id: 2 For Attending Teacher
+2019-02-09 13:39:35.2709|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-09 13:41:02.6481|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Forms To Teacher-Subject Collection By teacher id: 309
+2019-02-09 13:41:03.0662|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-09 13:41:50.1961|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting Teacher Remove for Teacher Id: 309
+2019-02-09 13:41:52.3579|ERROR|eSchool.Controllers.TeachersController|System.Web.HttpException (0x80004005): The Teacher with id: 309 has a list of marks in database. It can not be deleted. If you want to stop the teacher's engagements you need to update Teacher's property IsStillWorking to false with HttpPut at http://localhost:54164/project/teachers/309/stopped-working
+   at eSchool.Services.TeachersService.Delete(String id) in D:\1-Project\Project\eSchool\Services\TeachersService.cs:line 152
+   at eSchool.Controllers.TeachersController.DeleteTeacher(String id) in D:\1-Project\Project\eSchool\Controllers\TeachersController.cs:line 299
+2019-02-09 13:42:19.7503|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting IsStillWorking Update to False For Teacher with Id: 309 and updating All engagements in TeacherToSubject and FormToTeacherSubject Tables.
+2019-02-09 13:42:20.5189|ERROR|eSchool.Controllers.TeachersController|System.Web.HttpException (0x80004005): The teacher id: 309 is assigned to the form with id: 8. To archive this teacher, first you need to assign a new Attending Teacher to that Form with HttpPut and route: http://localhost:54164/project/forms/8/attending-teacher/{newAttendingTeacherId} 
+   at eSchool.Services.TeachersService.StoppedWorkingAndEndedAllEngagementsInTSAndFTSByTeacherId(String id) in D:\1-Project\Project\eSchool\Services\TeachersService.cs:line 253
+   at eSchool.Controllers.TeachersController.StoppedWorkingAndEndedAllEngagementsInTSAndFTSByTeacherId(String id) in D:\1-Project\Project\eSchool\Controllers\TeachersController.cs:line 389
+2019-02-09 13:42:55.5542|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 8, Change Attending Teacher Id to: 311
+2019-02-09 13:42:56.8421|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-09 13:43:03.1440|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting IsStillWorking Update to False For Teacher with Id: 309 and updating All engagements in TeacherToSubject and FormToTeacherSubject Tables.
+2019-02-09 13:43:04.0270|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-09 13:43:12.4617|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Forms To Teacher-Subject Collection By teacher id: 309
+2019-02-09 13:43:13.0308|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-09 13:44:03.7581|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 303, SubjectId: 2, FormId: 2, StudentId: 103
+2019-02-09 13:44:11.5723|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-09 13:45:15.5389|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 304, SubjectId: 2, FormId: 2, StudentId: 103
+2019-02-09 13:45:16.2420|ERROR|eSchool.Controllers.MarksController|System.Web.HttpException (0x80004005): The subject with id: 2 is not assigned to the teacher with id: 304.
+   at eSchool.Services.TeachersToSubjectsService.GetTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 58
+   at eSchool.Services.TeachersToSubjectsService.GetActiveTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 68
+   at eSchool.Services.FormsToTeacherSubjectsService.FindFTSForMark(Int32 formId, String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 300
+   at eSchool.Services.MarksService.Create(PostMarkDTO postDTO, String teacherId, Int32 subjectId, Int32 formId, String studentId) in D:\1-Project\Project\eSchool\Services\MarksService.cs:line 174
+   at eSchool.Controllers.MarksController.PostMark(PostMarkDTO postDTO, String teacherId, Int32 subjectId, Int32 formId, String studentId) in D:\1-Project\Project\eSchool\Controllers\MarksController.cs:line 126
+2019-02-09 13:45:29.0852|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 304, SubjectId: 21, FormId: 2, StudentId: 103
+2019-02-09 13:45:29.9224|ERROR|eSchool.Controllers.MarksController|System.Web.HttpException (0x80004005): The teacher id: 304 and the subject id 21 are not assigned to the form id: 2.
+   at eSchool.Services.FormsToTeacherSubjectsService.GetActiveFTS(Int32 formId, Int32 tsId) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 282
+   at eSchool.Services.FormsToTeacherSubjectsService.FindFTSForMark(Int32 formId, String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 303
+   at eSchool.Services.MarksService.Create(PostMarkDTO postDTO, String teacherId, Int32 subjectId, Int32 formId, String studentId) in D:\1-Project\Project\eSchool\Services\MarksService.cs:line 174
+   at eSchool.Controllers.MarksController.PostMark(PostMarkDTO postDTO, String teacherId, Int32 subjectId, Int32 formId, String studentId) in D:\1-Project\Project\eSchool\Controllers\MarksController.cs:line 126
+2019-02-09 13:45:41.3927|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 304, SubjectId: 21, FormId: 5, StudentId: 103
+2019-02-09 13:45:41.8870|ERROR|eSchool.Controllers.MarksController|System.Web.HttpException (0x80004005): The teacher (id: 304) does not teach the subject (21) in the student's (id: 103) form.
+   at eSchool.Services.MarksService.Create(PostMarkDTO postDTO, String teacherId, Int32 subjectId, Int32 formId, String studentId) in D:\1-Project\Project\eSchool\Services\MarksService.cs:line 189
+   at eSchool.Controllers.MarksController.PostMark(PostMarkDTO postDTO, String teacherId, Int32 subjectId, Int32 formId, String studentId) in D:\1-Project\Project\eSchool\Controllers\MarksController.cs:line 126
+2019-02-09 13:45:53.3421|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Update - mark id: 233 to mark value: 4
+2019-02-09 13:45:54.2877|ERROR|eSchool.Controllers.MarksController|System.Web.HttpException (0x80004005): The mark with id: 233 was not created by the teacher with id: 303.
+   at eSchool.Services.MarksService.Update(Int32 id, String teacherId, Int32 value) in D:\1-Project\Project\eSchool\Services\MarksService.cs:line 240
+   at eSchool.Controllers.MarksController.PutMark(Int32 id, String teacherId, Int32 value) in D:\1-Project\Project\eSchool\Controllers\MarksController.cs:line 177

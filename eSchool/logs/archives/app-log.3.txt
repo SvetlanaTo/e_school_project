@@ -1,0 +1,358 @@
+2019-02-06 11:48:07.6739|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 4
+2019-02-06 11:48:55.3900|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-06 11:52:03.1430|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 4
+2019-02-06 11:58:57.4367|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 4
+2019-02-06 11:59:31.7900|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-06 12:00:03.7018|INFO|eSchool.Controllers.FormsController|UserRole: admin, UserId: 401: Requesting Sorted Students Names Collection For Form Id: 1
+2019-02-06 12:00:03.8259|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-06 12:01:33.2545|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-06 12:01:33.4373|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 12:10:11.5544|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Teacher by id: 301
+2019-02-06 12:10:11.9468|INFO|eSchool.Controllers.TeachersController|Requesting found teacher convert for adminrole.
+2019-02-06 12:10:11.9660|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 12:10:32.3052|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Teacher by id: teacher2
+2019-02-06 12:10:32.7304|INFO|eSchool.Controllers.TeachersController|The teacher with id: teacher2 was not found.
+2019-02-06 12:10:51.1641|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Teacher by username: teacher2
+2019-02-06 12:10:51.2521|INFO|eSchool.Controllers.TeachersController|Requesting found teacher convert for adminrole.
+2019-02-06 12:10:51.2731|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 12:13:11.8195|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Update for Teacher Id: 302
+2019-02-06 12:13:12.9193|ERROR|eSchool.Controllers.TeachersController|System.Web.HttpException (0x80004005): The username teacher2 already exists. Leave blank if you don't want to change the user name.
+   at eSchool.Services.TeachersService.<Update>d__12.MoveNext() in D:\1-Project\Project\eSchool\Services\TeachersService.cs:line 97
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at eSchool.Controllers.TeachersController.<PutTeacher>d__7.MoveNext() in D:\1-Project\Project\eSchool\Controllers\TeachersController.cs:line 267
+2019-02-06 12:14:07.1251|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Update for Teacher Id: 302
+2019-02-06 12:14:10.3058|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 12:14:45.6844|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting Teacher Remove for Teacher Id: 302
+2019-02-06 12:14:46.5456|ERROR|eSchool.Controllers.TeachersController|System.Web.HttpException (0x80004005): The Teacher with id: 302 has a list of marks in database. It can not be deleted. If you want to stop the teacher's engagements you need to update Teacher's property IsStillWorking to false with HttpPut at http://localhost:54164/project/teachers/302/stopped-working
+   at eSchool.Services.TeachersService.Delete(String id) in D:\1-Project\Project\eSchool\Services\TeachersService.cs:line 153
+   at eSchool.Controllers.TeachersController.DeleteTeacher(String id) in D:\1-Project\Project\eSchool\Controllers\TeachersController.cs:line 307
+2019-02-06 12:16:49.9869|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Teacher Id302
+2019-02-06 12:16:50.3249|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 12:18:23.9491|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserRole: admin, UserId: 401: Requesting FormToTeacherSubject by id: 2
+2019-02-06 12:18:24.0631|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Requesting found FormToTeacherSubject convert for adminrole.
+2019-02-06 12:18:24.2557|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-06 12:18:39.4766|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting IsStillWorking Update to False For Teacher with Id: 302 and updating All engagements in TeacherToSubject and FormToTeacherSubject Tables.
+2019-02-06 12:18:39.6847|ERROR|eSchool.Controllers.TeachersController|System.Web.HttpException (0x80004005): The teacher id: 302 is assigned to the form with id: 1. To archive this teacher, first you need to assign a new Attending Teacher to that Form with HttpPut and route: http://localhost:54164/project/forms/1/attending-teacher/{newAttendingTeacherId} 
+   at eSchool.Services.TeachersService.StoppedWorkingAndEndedAllEngagementsInTSAndFTSByTeacherId(String id) in D:\1-Project\Project\eSchool\Services\TeachersService.cs:line 254
+   at eSchool.Controllers.TeachersController.StoppedWorkingAndEndedAllEngagementsInTSAndFTSByTeacherId(String id) in D:\1-Project\Project\eSchool\Controllers\TeachersController.cs:line 397
+2019-02-06 12:19:19.9676|INFO|eSchool.Controllers.FormsController|UserId: 401: Requesting Form Update For Form Id: 1, Change Attending Teacher Id to: 311
+2019-02-06 12:19:20.0978|INFO|eSchool.Controllers.FormsController|Success!
+2019-02-06 12:19:34.1259|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting IsStillWorking Update to False For Teacher with Id: 302 and updating All engagements in TeacherToSubject and FormToTeacherSubject Tables.
+2019-02-06 12:19:34.3623|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 12:19:50.6808|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Teacher Id302
+2019-02-06 12:19:50.8148|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 12:20:06.8696|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserRole: admin, UserId: 401: Requesting FormToTeacherSubject by id: 2
+2019-02-06 12:20:06.9017|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Requesting found FormToTeacherSubject convert for adminrole.
+2019-02-06 12:20:07.0637|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-06 12:20:15.6253|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserRole: admin, UserId: 401: Requesting FormToTeacherSubject by id: 3
+2019-02-06 12:20:15.7153|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Requesting found FormToTeacherSubject convert for adminrole.
+2019-02-06 12:20:15.7383|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-06 12:21:16.5775|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Forms To Teacher-Subject Collection By teacher-subject id: 3
+2019-02-06 12:21:16.6545|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-06 12:23:09.2442|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting Teacher Remove for Teacher Id: 301
+2019-02-06 12:23:09.6417|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 12:23:46.7253|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Teacher Collection - By Last Name: kovac - Sorted Asc By Name
+2019-02-06 12:23:46.9369|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 12:24:39.8527|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting IsStillWorking Update to False For Teacher with Id: 303 and updating All engagements in TeacherToSubject and FormToTeacherSubject Tables.
+2019-02-06 12:24:40.4729|ERROR|eSchool.Controllers.TeachersController|System.Web.HttpException (0x80004005): The teacher id: 303 is assigned to the form with id: 2. To archive this teacher, first you need to assign a new Attending Teacher to that Form with HttpPut and route: http://localhost:54164/project/forms/2/attending-teacher/{newAttendingTeacherId} 
+   at eSchool.Services.TeachersService.StoppedWorkingAndEndedAllEngagementsInTSAndFTSByTeacherId(String id) in D:\1-Project\Project\eSchool\Services\TeachersService.cs:line 254
+   at eSchool.Controllers.TeachersController.StoppedWorkingAndEndedAllEngagementsInTSAndFTSByTeacherId(String id) in D:\1-Project\Project\eSchool\Controllers\TeachersController.cs:line 397
+2019-02-06 12:24:49.3497|INFO|eSchool.Controllers.TeachersController|UserId: 401: Requesting IsStillWorking Update to False For Teacher with Id: 312 and updating All engagements in TeacherToSubject and FormToTeacherSubject Tables.
+2019-02-06 12:24:49.4664|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 13:42:18.7045|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Teacher Collection - By student User Name: student2 - Sorted Asc By Name
+2019-02-06 13:45:23.4567|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 13:49:37.6827|INFO|eSchool.Controllers.TeachersController|UserRole: parent, UserId: 203: Requesting Teacher Collection - By student User Name: student5 - Sorted Asc By Name
+2019-02-06 13:52:37.0716|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 16:02:12.4475|INFO|eSchool.Controllers.TeachersController|UserRole: parent, UserId: 203: Requesting Teacher ByFirstThreeLetters: k
+2019-02-06 16:02:12.6595|ERROR|eSchool.Controllers.TeachersController|Sorry, you have entered 1 letters. Please put exactly three letters for this search.
+2019-02-06 16:02:41.0559|INFO|eSchool.Controllers.TeachersController|UserRole: parent, UserId: 203: Requesting Teacher ByFirstThreeLetters: kov
+2019-02-06 16:03:21.9309|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 16:03:56.4223|INFO|eSchool.Controllers.TeachersController|UserRole: parent, UserId: 203: Requesting Teacher ByFirstThreeLetters: boj
+2019-02-06 16:03:56.5015|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 16:04:09.3184|INFO|eSchool.Controllers.TeachersController|UserRole: parent, UserId: 203: Requesting Teacher ByFirstThreeLetters: ana
+2019-02-06 16:04:10.0954|ERROR|eSchool.Controllers.TeachersController|System.Web.HttpException (0x80004005): Your search didn't match any teacher.
+   at eSchool.Services.TeachersService.GetWorkingTeachersByFirstThreeLetters(String startsWith) in D:\1-Project\Project\eSchool\Services\TeachersService.cs:line 379
+   at eSchool.Controllers.TeachersController.GetWorkingTeachersByFirstThreeLetters(String startsWith) in D:\1-Project\Project\eSchool\Controllers\TeachersController.cs:line 493
+2019-02-06 16:05:02.3339|INFO|eSchool.Controllers.TeachersController|UserRole: parent, UserId: 203: Requesting Teacher ByFirstThreeLetters: jov
+2019-02-06 16:05:02.4639|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 16:08:02.5020|INFO|eSchool.Controllers.TeachersController|UserRole: parent, UserId: 203: Requesting Teacher ByFirstThreeLetters: jov
+2019-02-06 16:08:38.7942|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 16:11:42.5971|INFO|eSchool.Controllers.SubjectsController|UserRole: parent, UserId: 203: Requesting Student Collection
+2019-02-06 16:11:42.7252|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 16:13:26.7146|INFO|eSchool.Controllers.SubjectsController|UserRole: parent, UserId: 203: Requesting Subject by id: 10
+2019-02-06 16:13:26.8266|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 16:57:45.9039|INFO|eSchool.Controllers.SubjectsController|UserRole: parent, UserId: 203: Requesting Student Collection
+2019-02-06 16:58:01.7768|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 16:59:13.0962|INFO|eSchool.Controllers.SubjectsController|UserRole: parent, UserId: 203: Requesting Subject Collection - By Grade: 5 - Sorted Asc
+2019-02-06 16:59:13.2262|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:08:18.6871|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Student Collection
+2019-02-06 17:08:18.7631|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:08:59.3584|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Subject by id: 1
+2019-02-06 17:08:59.3894|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:09:17.1384|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Subject by id: 1
+2019-02-06 17:09:17.1564|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:13:02.5677|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Update for Subject Id: 1
+2019-02-06 17:13:21.2814|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:16:30.4729|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Update for Subject Id: 1
+2019-02-06 17:16:31.1773|ERROR|eSchool.Controllers.SubjectsController|System.Web.HttpException (0x80004005): The subject you are creating by this update is already in the system. The subject id:11
+   at eSchool.Services.SubjectsService.Update(Int32 id, PutSubjectDTO updated) in D:\1-Project\Project\eSchool\Services\SubjectsService.cs:line 55
+   at eSchool.Controllers.SubjectsController.PutSubject(Int32 id, PutSubjectDTO updated) in D:\1-Project\Project\eSchool\Controllers\SubjectsController.cs:line 111
+2019-02-06 17:17:07.7424|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Insert
+2019-02-06 17:17:07.9234|ERROR|eSchool.Controllers.SubjectsController|System.Web.HttpException (0x80004005): The Subject is already in the system with id: 11.
+   at eSchool.Services.SubjectsService.Create(PostSubjectDTO newSubject) in D:\1-Project\Project\eSchool\Services\SubjectsService.cs:line 70
+   at eSchool.Controllers.SubjectsController.PostSubject(PostSubjectDTO newSubject) in D:\1-Project\Project\eSchool\Controllers\SubjectsController.cs:line 144
+2019-02-06 17:17:19.7111|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Insert
+2019-02-06 17:17:20.0322|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:17:41.9225|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 23
+2019-02-06 17:17:42.8141|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:17:51.3966|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 2
+2019-02-06 17:17:51.6206|ERROR|eSchool.Controllers.SubjectsController|System.Web.HttpException (0x80004005): The Subject with id: 2 has a list of marks in database. It can not be deleted in this school year.
+   at eSchool.Services.SubjectsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\SubjectsService.cs:line 117
+   at eSchool.Controllers.SubjectsController.DeleteSubject(Int32 id) in D:\1-Project\Project\eSchool\Controllers\SubjectsController.cs:line 181
+2019-02-06 17:18:05.2909|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 7
+2019-02-06 17:18:05.4841|ERROR|eSchool.Controllers.SubjectsController|System.Web.HttpException (0x80004005): The Subject with id: 7 has a list of marks in database. It can not be deleted in this school year.
+   at eSchool.Services.SubjectsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\SubjectsService.cs:line 117
+   at eSchool.Controllers.SubjectsController.DeleteSubject(Int32 id) in D:\1-Project\Project\eSchool\Controllers\SubjectsController.cs:line 181
+2019-02-06 17:18:35.3287|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection - ByFirstLetter: e - Sorted Asc
+2019-02-06 17:18:35.4017|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:18:44.6430|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection - ByFirstLetter: b - Sorted Asc
+2019-02-06 17:18:44.6720|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:19:00.6858|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection - ByFirstLetter: biol - Sorted Asc
+2019-02-06 17:19:00.7738|ERROR|eSchool.Controllers.SubjectsController|You entered 4 letters. Please put exactly one letter for this search.
+2019-02-06 17:19:54.6712|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection - By Grade: 10 - Sorted Asc
+2019-02-06 17:19:54.7282|ERROR|eSchool.Controllers.SubjectsController|The grade must be between 1 and 8. The entered value was 10
+2019-02-06 17:20:06.1196|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection - By Grade: 1 - Sorted Asc
+2019-02-06 17:20:06.1816|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:20:19.2177|INFO|eSchool.Controllers.SubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection - By Grade: 5 - Sorted Asc
+2019-02-06 17:20:19.2808|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 17:20:56.8853|INFO|eSchool.Controllers.TeachersController|UserRole: admin, UserId: 401: Requesting Teacher Collection - By student User Name: student5 - Sorted Asc By Name
+2019-02-06 17:20:59.5346|INFO|eSchool.Controllers.TeachersController|Success!
+2019-02-06 18:30:01.3715|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 302, SubjectId: 1, FormId: 2, StudentId: 102
+2019-02-06 18:47:37.9699|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 302, SubjectId: 1, FormId: 2, StudentId: 102
+2019-02-06 18:54:27.9648|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 302, SubjectId: 1, FormId: 2, StudentId: 102
+2019-02-06 19:00:16.2411|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 302, SubjectId: 1, FormId: 2, StudentId: 102
+2019-02-06 19:04:42.6420|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-06 19:07:23.3415|INFO|eSchool.Controllers.MarksController|UserRole: admin, UserId: 401: Requesting Mark Insert - TeacherId: 302, SubjectId: 1, FormId: 2, StudentId: 102
+2019-02-06 19:11:04.6118|INFO|eSchool.Controllers.MarksController|Success!
+2019-02-06 21:25:44.0288|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id2
+2019-02-06 21:37:03.7369|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id2
+2019-02-06 21:38:35.0686|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 21:40:20.4176|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id1
+2019-02-06 21:40:33.7821|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:01:11.7873|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Teacher Id308
+2019-02-06 22:03:11.9295|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:04:57.4007|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Teacher Id301
+2019-02-06 22:05:52.9442|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:08:33.2607|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject Collection
+2019-02-06 22:08:50.5709|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:11:20.5376|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject by id: 1
+2019-02-06 22:11:20.6347|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting found TeacherToSubject convert for adminrole.
+2019-02-06 22:11:20.7007|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:14:29.6461|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Insert - Teacher Id: 302, Subject Id:16
+2019-02-06 22:14:30.1350|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:15:48.4653|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Insert - Teacher Id: 302, Subject Id:1
+2019-02-06 22:15:48.8588|ERROR|eSchool.Controllers.TeachersToSubjectsController|System.Web.HttpException (0x80004005): The subject with id: 1 is already assign to the teacher with id: 302. You can find the existing Teacher-Subject combination (2) with HttpGet at route: http://localhost:54164/project/teachers-to-subjects/2
+   at eSchool.Services.TeachersToSubjectsService.Create(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 100
+   at eSchool.Controllers.TeachersToSubjectsController.PostTeacherToSubject(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Controllers\TeachersToSubjectsController.cs:line 175
+2019-02-06 22:16:08.5776|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject by id: 2
+2019-02-06 22:16:08.6287|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting found TeacherToSubject convert for adminrole.
+2019-02-06 22:16:08.6877|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:19:11.5059|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Insert - Teacher Id: 302, Subject Id:16
+2019-02-06 22:19:11.6456|ERROR|eSchool.Controllers.TeachersToSubjectsController|System.Web.HttpException (0x80004005): The subject with id: 16 is already assign to the teacher with id: 302. You can find the existing Teacher-Subject combination (25) with HttpGet at route: http://localhost:54164/project/teachers-to-subjects/25
+   at eSchool.Services.TeachersToSubjectsService.Create(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 100
+   at eSchool.Controllers.TeachersToSubjectsController.PostTeacherToSubject(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Controllers\TeachersToSubjectsController.cs:line 175
+2019-02-06 22:20:26.6512|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:20:26.7122|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StartedTeaching Property Update
+2019-02-06 22:20:26.9273|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:21:15.5404|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:21:15.6014|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StoppedTeaching Property Update
+2019-02-06 22:21:15.6815|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:21:25.6157|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:21:25.6317|INFO|eSchool.Controllers.TeachersToSubjectsController|The route value: stop isn't valid. The correct options are: started or stopped.
+2019-02-06 22:31:04.7516|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:31:04.8816|INFO|eSchool.Controllers.TeachersToSubjectsController|The route value: stop isn't valid. The correct options are: started or stopped.
+2019-02-06 22:31:12.4085|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:31:12.4506|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StoppedTeaching Property Update
+2019-02-06 22:31:26.8935|ERROR|eSchool.Controllers.TeachersToSubjectsController|System.Web.HttpException (0x80004005): The Teacher-Subject combination with id: 25 was not found.
+   at eSchool.Services.TeachersToSubjectsService.UpdateStoppedTeaching(Int32 id, DateTime updated) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 142
+   at eSchool.Controllers.TeachersToSubjectsController.PutStartedOrStoppedTeaching(Int32 id, String date, DateTime updated) in D:\1-Project\Project\eSchool\Controllers\TeachersToSubjectsController.cs:line 223
+2019-02-06 22:32:05.6487|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Insert - Teacher Id: 302, Subject Id:16
+2019-02-06 22:32:06.1829|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:32:33.3468|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:32:33.3808|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StoppedTeaching Property Update
+2019-02-06 22:32:33.6598|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:32:39.1658|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:32:39.1998|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StoppedTeaching Property Update
+2019-02-06 22:32:39.2689|ERROR|eSchool.Controllers.TeachersToSubjectsController|System.Web.HttpException (0x80004005): The StoppedTeaching date must be after StartedTeaching Date: 6.2.2019. 21:32:06
+   at eSchool.Services.TeachersToSubjectsService.UpdateStoppedTeaching(Int32 id, DateTime updated) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 147
+   at eSchool.Controllers.TeachersToSubjectsController.PutStartedOrStoppedTeaching(Int32 id, String date, DateTime updated) in D:\1-Project\Project\eSchool\Controllers\TeachersToSubjectsController.cs:line 223
+2019-02-06 22:33:06.3937|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:33:06.4301|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StartedTeaching Property Update
+2019-02-06 22:33:06.4900|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:33:18.7767|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:33:18.7767|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StartedTeaching Property Update
+2019-02-06 22:33:18.8758|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:36:41.2232|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Insert - Teacher Id: 302, Subject Id:16
+2019-02-06 22:36:55.2086|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:37:17.0549|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:37:17.0649|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StoppedTeaching Property Update
+2019-02-06 22:37:17.2529|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:37:31.5187|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:37:31.5327|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StartedTeaching Property Update
+2019-02-06 22:37:31.7247|ERROR|eSchool.Controllers.TeachersToSubjectsController|System.Web.HttpException (0x80004005): The StartedTeaching date must be after StoppedTeaching Date: 1.9.2019. 00:00:00
+   at eSchool.Services.TeachersToSubjectsService.UpdateStartedTeaching(Int32 id, DateTime updated) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 131
+   at eSchool.Controllers.TeachersToSubjectsController.PutStartedOrStoppedTeaching(Int32 id, String date, DateTime updated) in D:\1-Project\Project\eSchool\Controllers\TeachersToSubjectsController.cs:line 218
+2019-02-06 22:38:01.1754|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:38:01.1874|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StartedTeaching Property Update
+2019-02-06 22:38:01.2944|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:38:06.7024|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject by id: 24
+2019-02-06 22:38:06.7444|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting found TeacherToSubject convert for adminrole.
+2019-02-06 22:38:06.7634|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:38:12.6776|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject by id: 21
+2019-02-06 22:38:12.6966|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting found TeacherToSubject convert for adminrole.
+2019-02-06 22:38:12.7336|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 22:39:17.9456|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update
+2019-02-06 22:39:17.9597|INFO|eSchool.Controllers.TeachersToSubjectsController|Requesting StartedTeaching Property Update
+2019-02-06 22:39:18.1957|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:05:48.6750|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update - Stopped Teaching for TeacherToSubject Id: 21
+2019-02-06 23:06:02.5415|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:06:25.7504|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Remove For Teacher-Subject with Id: 21
+2019-02-06 23:06:26.0456|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:06:32.7933|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Remove For Teacher-Subject with Id: 20
+2019-02-06 23:06:33.4584|ERROR|eSchool.Controllers.TeachersToSubjectsController|System.Web.HttpException (0x80004005): The TeacherSubject with id: 20 has a list of marks in database. It can not be deleted. If you want to stop the teacher's engagement in teaching the subject (and with that, stop his teaching engagemets in all forms) you need to update Teacher-Subject's property StoppedTeaching with HttpPut at http://localhost:54164/project/teachers-to-subjects/20/stopped-teaching-now
+   at eSchool.Services.TeachersToSubjectsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 306
+   at eSchool.Controllers.TeachersToSubjectsController.DeleteTeacherToSubject(Int32 id) in D:\1-Project\Project\eSchool\Controllers\TeachersToSubjectsController.cs:line 522
+2019-02-06 23:07:11.9913|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Teacher To Subject Update - Stopped Teaching for TeacherToSubject Id: 20
+2019-02-06 23:07:12.1854|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:07:22.0647|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting Remove For Teacher-Subject with Id: 20
+2019-02-06 23:07:22.2157|ERROR|eSchool.Controllers.TeachersToSubjectsController|System.Web.HttpException (0x80004005): The TeacherSubject with id: 20 has a list of marks in database. It can not be deleted. If you want to stop the teacher's engagement in teaching the subject (and with that, stop his teaching engagemets in all forms) you need to update Teacher-Subject's property StoppedTeaching with HttpPut at http://localhost:54164/project/teachers-to-subjects/20/stopped-teaching-now
+   at eSchool.Services.TeachersToSubjectsService.Delete(Int32 id) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 306
+   at eSchool.Controllers.TeachersToSubjectsController.DeleteTeacherToSubject(Int32 id) in D:\1-Project\Project\eSchool\Controllers\TeachersToSubjectsController.cs:line 522
+2019-02-06 23:08:11.1206|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Teacher Id302
+2019-02-06 23:08:11.5337|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:09:18.8284|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Teacher Id308
+2019-02-06 23:09:18.9108|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:11:37.3880|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Teacher Id308
+2019-02-06 23:11:37.5984|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:12:58.6470|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id1
+2019-02-06 23:12:58.7134|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:13:34.4793|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id2
+2019-02-06 23:13:34.5373|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:13:37.5889|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id3
+2019-02-06 23:13:37.6510|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:14:08.6335|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id1
+2019-02-06 23:14:08.7145|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:15:44.6587|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting StoppedTeaching Update to DateTime.UtcNow For Teacher with Id: 308
+2019-02-06 23:15:44.9491|INFO|eSchool.Controllers.TeachersToSubjectsController|Success! Updated StoppedTeaching property to DateTime.UtcNow.
+2019-02-06 23:20:57.2912|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting StoppedTeaching Update to DateTime.UtcNow For Subject with Id: 1
+2019-02-06 23:20:57.5519|INFO|eSchool.Controllers.TeachersToSubjectsController|Success! Updated StoppedTeaching property to DateTime.UtcNow.
+2019-02-06 23:21:27.8186|INFO|eSchool.Controllers.SubjectsController|UserId: 401: Requesting Subject Remove for Subject Id: 1
+2019-02-06 23:21:28.3159|INFO|eSchool.Controllers.SubjectsController|Success!
+2019-02-06 23:26:14.0436|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting active Teacher Collection By Subject Id: 16
+2019-02-06 23:26:14.0927|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:26:19.4309|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting active Teacher Collection By Subject Id: 2
+2019-02-06 23:26:19.5810|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:26:30.4158|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Teacher Collection By Subject Id: 2
+2019-02-06 23:26:30.4448|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:26:39.9512|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Teacher Collection By Subject Id: 3
+2019-02-06 23:26:39.9703|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:26:44.4627|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Teacher Collection By Subject Id: 22
+2019-02-06 23:26:44.4867|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:26:47.2250|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Teacher Collection By Subject Id: 23
+2019-02-06 23:26:47.3490|ERROR|eSchool.Controllers.TeachersToSubjectsController|System.Web.HttpException (0x80004005): The subject with id: 23 was not found
+   at eSchool.Services.TeachersToSubjectsService.GetActiveOrInactiveTeachersBySubjectId(Int32 subjectId, String active) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 344
+   at eSchool.Controllers.TeachersToSubjectsController.GetActiveOrInactiveTeachersBySubjectId(Int32 subjectId, String active) in D:\1-Project\Project\eSchool\Controllers\TeachersToSubjectsController.cs:line 565
+2019-02-06 23:27:01.1781|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Teacher Collection By Subject Id: 4
+2019-02-06 23:27:01.3331|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:27:10.5164|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting active Teacher Collection By Subject Id: 4
+2019-02-06 23:27:10.5474|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:28:29.4447|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting active Subject Collection By Teacher Id: 308
+2019-02-06 23:28:29.5445|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:28:35.3796|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Subject Collection By Teacher Id: 308
+2019-02-06 23:28:35.4306|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:28:49.7100|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Subject Collection By Teacher Id: 309
+2019-02-06 23:28:49.8010|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:28:53.9312|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Subject Collection By Teacher Id: 301
+2019-02-06 23:28:53.9782|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:28:57.1179|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Subject Collection By Teacher Id: 302
+2019-02-06 23:28:57.1429|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:29:03.8158|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting active Subject Collection By Teacher Id: 302
+2019-02-06 23:29:03.8818|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:29:12.1652|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting active Subject Collection By Teacher Id: 305
+2019-02-06 23:29:12.1902|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:29:16.4591|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting inactive Subject Collection By Teacher Id: 305
+2019-02-06 23:29:16.5041|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:29:36.3611|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting active Subject Collection By Teacher Id: 305
+2019-02-06 23:29:36.3951|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:29:43.4139|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting active Subject Collection By Teacher Id: 308
+2019-02-06 23:29:43.4470|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:30:24.0895|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject Collection For Grade: 5
+2019-02-06 23:30:24.1455|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:31:45.5351|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject Collection For Subject: 4 By DateTime: 1.9.2010. 00:00:00 - 1.9.2018. 00:00:00
+2019-02-06 23:31:45.6031|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:31:57.2308|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject Collection For Subject: 1 By DateTime: 1.9.2010. 00:00:00 - 1.9.2018. 00:00:00
+2019-02-06 23:31:57.3268|ERROR|eSchool.Controllers.TeachersToSubjectsController|System.Web.HttpException (0x80004005): The subject with id: 1 was not found
+   at eSchool.Services.TeachersToSubjectsService.GetTeachersForSubjectByDate(Int32 subjectId, DateTime startDate, DateTime endDate) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 369
+   at eSchool.Controllers.TeachersToSubjectsController.GetTeachersForSubjectByDate(Int32 subjectId, DateTime startDate, DateTime endDate) in D:\1-Project\Project\eSchool\Controllers\TeachersToSubjectsController.cs:line 688
+2019-02-06 23:32:00.9724|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject Collection For Subject: 2 By DateTime: 1.9.2010. 00:00:00 - 1.9.2018. 00:00:00
+2019-02-06 23:32:00.9924|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:32:09.7862|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Teacher To Subject Collection For Subject: 3 By DateTime: 1.9.2010. 00:00:00 - 1.9.2018. 00:00:00
+2019-02-06 23:32:09.8164|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:45:09.8353|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting StoppedTeaching Update to DateTime.UtcNow For Subject with Id: 4
+2019-02-06 23:45:28.8818|INFO|eSchool.Controllers.TeachersToSubjectsController|Success! Updated StoppedTeaching property to DateTime.UtcNow.
+2019-02-06 23:46:22.3226|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id4
+2019-02-06 23:46:22.4977|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:46:31.4680|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id2
+2019-02-06 23:46:31.4940|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:46:35.5584|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id1
+2019-02-06 23:46:35.5954|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:47:18.2465|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting StoppedTeaching Update to DateTime.UtcNow For Subject with Id: 1
+2019-02-06 23:47:18.5896|INFO|eSchool.Controllers.TeachersToSubjectsController|Success! Updated StoppedTeaching property to DateTime.UtcNow.
+2019-02-06 23:47:39.7910|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Subject Id1
+2019-02-06 23:47:39.8339|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:48:41.3294|INFO|eSchool.Controllers.TeachersToSubjectsController|UserId: 401: Requesting StoppedTeaching Update to DateTime.UtcNow For Teacher with Id: 302
+2019-02-06 23:48:41.4796|INFO|eSchool.Controllers.TeachersToSubjectsController|Success! Updated StoppedTeaching property to DateTime.UtcNow.
+2019-02-06 23:49:02.9918|INFO|eSchool.Controllers.TeachersToSubjectsController|UserRole: admin, UserId: 401: Requesting Subject Collection By Teacher Id302
+2019-02-06 23:49:03.3842|INFO|eSchool.Controllers.TeachersToSubjectsController|Success!
+2019-02-06 23:51:19.5908|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Forms To Teacher-Subject Collection
+2019-02-06 23:51:20.9179|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-06 23:51:40.7154|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserRole: admin, UserId: 401: Requesting FormToTeacherSubject by id: 1
+2019-02-06 23:51:40.8875|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Requesting found FormToTeacherSubject convert for adminrole.
+2019-02-06 23:51:40.9785|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-06 23:51:48.8214|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserRole: admin, UserId: 401: Requesting FormToTeacherSubject by id: 53
+2019-02-06 23:51:48.8694|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Requesting found FormToTeacherSubject convert for adminrole.
+2019-02-06 23:51:48.9715|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-06 23:54:03.9621|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Form TO TeacherSubject Insert for Form Id: 7, Teacher id: 302, Subject Id: 11
+2019-02-06 23:54:04.6312|ERROR|eSchool.Controllers.FormsToTeachersSubjectsController|System.Web.HttpException (0x80004005): The teacher with id 302 has stopped teaching the subject with id: 11. You need to renew the teaching contract.
+   at eSchool.Services.TeachersToSubjectsService.GetActiveTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 72
+   at eSchool.Services.FormsToTeacherSubjectsService.Create(Int32 formId, String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 65
+   at eSchool.Controllers.FormsToTeachersSubjectsController.PostFormToTeacherSubject(Int32 formId, String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Controllers\FormsToTeachersSubjectsController.cs:line 158
+2019-02-06 23:54:22.7813|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Form TO TeacherSubject Insert for Form Id: 7, Teacher id: 303, Subject Id: 12
+2019-02-06 23:54:22.8980|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
+2019-02-06 23:55:09.7167|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Form TO TeacherSubject Insert for Form Id: 2, Teacher id: 304, Subject Id: 21
+2019-02-06 23:55:09.8358|ERROR|eSchool.Controllers.FormsToTeachersSubjectsController|System.Web.HttpException (0x80004005): The subject and teacher combination with id: 22 has the subject that is taught in grade 6and it can not be assigned to the grade 5 in form 2
+   at eSchool.Services.FormsToTeacherSubjectsService.Create(Int32 formId, String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 80
+   at eSchool.Controllers.FormsToTeachersSubjectsController.PostFormToTeacherSubject(Int32 formId, String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Controllers\FormsToTeachersSubjectsController.cs:line 158
+2019-02-06 23:58:41.8631|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Form TO TeacherSubject Update for FTS Id: 54
+2019-02-06 23:58:41.9836|ERROR|eSchool.Controllers.FormsToTeachersSubjectsController|System.Web.HttpException (0x80004005): The teacher with id: 4 was not found
+   at eSchool.Services.TeachersToSubjectsService.GetTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 45
+   at eSchool.Services.TeachersToSubjectsService.GetActiveTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 68
+   at eSchool.Services.FormsToTeacherSubjectsService.Update(Int32 id, PutFormToTeacherSubjectDTO updated) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 112
+   at eSchool.Controllers.FormsToTeachersSubjectsController.PutFormToTeacherSubject(Int32 id, PutFormToTeacherSubjectDTO updated) in D:\1-Project\Project\eSchool\Controllers\FormsToTeachersSubjectsController.cs:line 198
+2019-02-06 23:58:51.7697|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Form TO TeacherSubject Update for FTS Id: 54
+2019-02-06 23:58:51.8437|ERROR|eSchool.Controllers.FormsToTeachersSubjectsController|System.Web.HttpException (0x80004005): The teacher with id: 8 was not found
+   at eSchool.Services.TeachersToSubjectsService.GetTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 45
+   at eSchool.Services.TeachersToSubjectsService.GetActiveTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 68
+   at eSchool.Services.FormsToTeacherSubjectsService.Update(Int32 id, PutFormToTeacherSubjectDTO updated) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 112
+   at eSchool.Controllers.FormsToTeachersSubjectsController.PutFormToTeacherSubject(Int32 id, PutFormToTeacherSubjectDTO updated) in D:\1-Project\Project\eSchool\Controllers\FormsToTeachersSubjectsController.cs:line 198
+2019-02-06 23:59:06.0717|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Form TO TeacherSubject Update for FTS Id: 54
+2019-02-06 23:59:06.1968|ERROR|eSchool.Controllers.FormsToTeachersSubjectsController|System.Web.HttpException (0x80004005): The teacher with id: 10 was not found
+   at eSchool.Services.TeachersToSubjectsService.GetTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 45
+   at eSchool.Services.TeachersToSubjectsService.GetActiveTeacherToSubjectByTeacherIdAndSubjectId(String teacherId, Int32 subjectId) in D:\1-Project\Project\eSchool\Services\TeachersToSubjectsService.cs:line 68
+   at eSchool.Services.FormsToTeacherSubjectsService.Update(Int32 id, PutFormToTeacherSubjectDTO updated) in D:\1-Project\Project\eSchool\Services\FormsToTeacherSubjectsService.cs:line 112
+   at eSchool.Controllers.FormsToTeachersSubjectsController.PutFormToTeacherSubject(Int32 id, PutFormToTeacherSubjectDTO updated) in D:\1-Project\Project\eSchool\Controllers\FormsToTeachersSubjectsController.cs:line 198
+2019-02-06 23:59:17.3328|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|UserId: 401: Requesting Form TO TeacherSubject Update for FTS Id: 54
+2019-02-06 23:59:17.6750|INFO|eSchool.Controllers.FormsToTeachersSubjectsController|Success!
